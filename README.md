@@ -18,7 +18,7 @@
 
 ---
 
-<h3 align="center">Struktur Packages Program</h3>
+<h3 align="center">Deskripsi Program</h3>
 
 ---
 
