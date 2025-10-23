@@ -1,6 +1,6 @@
-# CAPSTONE KELOMPOK 9
+<h1 align="center">CAPSTONE KELOMPOK 9</h1>
 
-<h1 align="center">EMPORIA</h1>
+<h2 align="center">EMPORIA</h2>
 
 <h3 align="center" style="font-size:18px; font-style:italic;">Employee Euphoria System</h3>
 
