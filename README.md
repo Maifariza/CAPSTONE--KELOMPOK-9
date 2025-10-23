@@ -4,6 +4,5 @@
 
 <h3 align="center" style="font-size:18px; font-style:italic;">Employee Euphoria System</h3>
 
-<h1 align="center"><img width="700" height="700" alt="Blue and Pink Gradient Business Partnership Logo (3)" src="https://github.com/user-attachments/assets/6dbe42f6-ad79-4a24-b7e0-a4620e961d24" /></h1>
-
+<h1 align="center"><img width="700" alt="Blue and Pink Gradient Business Partnership Logo (4)" src="https://github.com/user-attachments/assets/929944fa-6673-403c-a984-9b140d720784" /></h1>
 
