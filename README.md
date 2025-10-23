@@ -15,3 +15,19 @@
     <li><b>MAIFARIZA AULIA DYAS</b> — 2409116032 / SISTEM INFORMASI A
     <li><b>SYAWE MANISHA P. SIREGAR</b> — 2409116058 / SISTEM INFORMASI B
     <li><b>IRVAN ALIF</b> — 2409116071 / SISTEM INFORMASI B </ul></div>
+
+---
+
+<h3 align="center">Struktur Packages Program</h3>
+
+---
+
+<h3 align="center">Struktur Program</h3>
+
+---
+
+<h3 align="center">Alur Program Emporia</h3>
+
+---
+
+<h3 align="center">Menu Utama Emporia</h3>
