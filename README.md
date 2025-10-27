@@ -85,14 +85,23 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 Ini adalah halaman utama saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi.
 
-Terdapat 3 tombol pilihan utamanya, yaitu:
+Terdapat 2 tombol pilihan utamanya, yaitu:
 
-1. **Login**, menuju ke halaman untuk masuk jika member atau admin sudah punya akun.
-   
-2. **Register**, menuju ke halaman pendaftaran akun baru, khususnya untuk karyawan yang belum memiliki akun.
+1. **Login**, menuju ke halaman untuk masuk jika Manajer dan Karyawan sudah punya akun.
 
-3. **Keluar**, menutup aplikasi.
+2. **Keluar**, menutup aplikasi.
 
-### Menu Register
 
 ### Menu Login
+
+Pada halaman ini, pengguna memasukkan username dan password, lalu menekan tombol Masuk. Sistem memeriksa kecocokan kredensial ke basis data.
+
+Jika username atau password tidak sesuai, sistem menampilkan pemberitahuan, membersihkan kolom isian, dan mengembalikan pengguna ke menu Login untuk mencoba lagi (loop ke langkah "Input Username”).
+
+Jika sesuai, sistem membaca peran (role) akun:
+
+- Manajer akan diarahkan ke Menu Manajer.
+  
+- Karyawan akan diarahkan ke Menu Karyawan.
+
+Jika role tidak dikenali atau akun tidak aktif, pengguna dikembalikan ke Login.
