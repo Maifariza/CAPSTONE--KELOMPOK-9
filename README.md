@@ -20,11 +20,13 @@
 
 <h3 align="center">Deskripsi Program</h3>
 
-EMPORIA (Employee Euphoria System) adalah aplikasi yang membantu perusahaan menjaga keseimbangan antara tuntutan kerja dan kesejahteraan karyawan. Melalui satu sistem terpusat, aktivitas harian, jam lembur, hasil survei kesejahteraan, dan umpan balik karyawan terdokumentasi rapi sehingga tidak lagi tercecer di banyak berkas. Data yang masuk diolah menjadi rangkuman yang mudah dibaca, lengkap dengan sinyal awal jika beban kerja mulai melampaui batas wajar.
+EMPORIA (Employee Euphoria System) adalah aplikasi yang membantu perusahaan menjaga keseimbangan antara tuntutan kerja dan kesejahteraan karyawan. Aplikasi ini hadir sebagai solusi atas tantangan perusahaan dalam menjaga keseimbangan antara produktivitas dan kesejahteraan karyawan. Masih banyak karyawan yang belum memperoleh keseimbangan yang layak. Mereka terus bekerja, tetapi kondisi fisik dan mental kerap terabaikan. Di banyak tempat, pemantauan beban kerja masih dilakukan secara manual. Mulai dari pencatatan jam masuk atau pulang kerja, jam lembur, dan survei kesejahteraan masih dilakukan manual, sehingga data sulit dikonsolidasikan dan lambat diolah. Kondisi tersebut membuat penilaian kinerja kurang objektif dan keputusan manajerial tertunda.
 
-Penggunaannya sederhana. Karyawan mencatat kehadiran dan mengisi survei berkala, lalu dapat mengisi kembali feedbacknya kapan saja. Di sisi lain, manajer menerima informasi rata-rata jam kerja, jam lembur, dan skor kesejahteraan, sehingga penyesuaian beban tugas atau dukungan yang diperlukan bisa diputuskan dengan cepat dan berdasar fakta, bukan perkiraan.
+Melalui EMPORIA (Employee Euphoria System), seluruh proses tersebut diintegrasikan ke dalam satu sistem digital yang terstruktur dan mudah digunakan. Setiap aktivitas karyawan, mulai dari kehadiran hingga hasil survei kesejahteraan, tercatat secara otomatis dan tersimpan dalam basis data yang aman. Sistem ini membantu manajer memperoleh gambaran menyeluruh mengenai kondisi tim, mendeteksi ketidakseimbangan beban kerja lebih awal, serta merancang strategi peningkatan kinerja yang lebih manusiawi dan berkelanjutan.
 
-Secara teknis, EMPORIA dikembangkan dengan pendekatan Object-Oriented Programming pada Java dan menggunakan MySQL sebagai basis data. Struktur dan keterkaitan tabel dikelola melalui perintah DDL dan DML agar setiap perubahan tetap konsisten dan dapat ditelusuri. Validasi input diterapkan untuk mencegah kesalahan pencatatan, sementara penyajian data disederhanakan dalam laporan untuk kebutuhan evaluasi atau rapat kinerja.
+Penggunaannya sederhana. Karyawan mencatat kehadiran dan mengisi survei berkala, lalu dapat mengisi kembali feedbacknya kapan saja. Di sisi lain, manajer menerima informasi rata-rata jam kerja, jam lembur, dan skor kesejahteraan, sehingga penyusunan laporan kinerja dan penyesuaian beban tugas bisa dilakukan dengan cepat.
+
+EMPORIA dikembangkan dengan menggunakan Object-Oriented Programming (OOP) pada Java dan menggunakan MySQL sebagai basis datanya. Struktur tabel dikelola melalui perintah DDL dan DML agar setiap perubahan tetap konsisten dan dapat ditelusuri. Validasi input diterapkan untuk mencegah kesalahan pencatatan, sementara penyajian data disederhanakan dalam laporan untuk kebutuhan evaluasi atau rapat kinerja.
 
 Dengan cara kerja tersebut, EMPORIA tidak hanya membantu meningkatkan keteraturan administrasi, tetapi juga menempatkan kesehatan fisik dan mental karyawan sebagai bagian dari keputusan operasional sehari-hari. Praktik ini sejalan dengan tujuan SDGs 8 (Decent Work and Economic Growth) yaitu lingkungan kerja yang layak, produktif, dan berkelanjutan, di mana setiap orang merasa diperhatikan sekaligus didorong untuk berkembang.
 
@@ -70,4 +72,4 @@ Dengan cara kerja tersebut, EMPORIA tidak hanya membantu meningkatkan keteratura
 
 ---
 
-<h3 align="center">Program Emporia</h3>
+<h3 align="center">Cara Menggunakan Program Emporia</h3>
