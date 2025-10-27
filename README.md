@@ -30,12 +30,44 @@ Dengan cara kerja tersebut, EMPORIA tidak hanya membantu meningkatkan keteratura
 
 ---
 
-<h3 align="center">Struktur Program</h3>
+<h3 align="center">Fitur Program</h3>
+
+1. Menu Registrasi
+
+2. Menu Login
+
+3. Menu Manajer
+
+4. Menu Karyawan
 
 ---
 
-<h3 align="center">Alur Program Emporia</h3>
+<h3 align="center">Penerapan OOP</h3>
+
+1. Encapsulation
+
+   > blablabka
+   
+2. Inheritance
+
+   > blablabka
+   
+3. Abstraction
+
+   > blabkabka
+   
+4. Polymorphism
+
+   > bla bla bla
+   
+5. Interface
+
+   > blablabla
+   
+---
+
+<h3 align="center">Struktur Package Program</h3>
 
 ---
 
-<h3 align="center">Menu Utama Emporia</h3>
+<h3 align="center">Program Emporia</h3>
