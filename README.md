@@ -46,24 +46,33 @@ EMPORIA tidak hanya membantu meningkatkan kelancaran perusahaan, tetapi juga men
 
 1. Encapsulation
 
-   > blablabka
+   > Encapsulation merupakan konsep dasar dalam pemrograman berorientasi objek yang bertujuan untuk melindungi data agar tidak dapat diakses atau diubah secara langsung dari luar kelas. Data atau variabel dibuat bersifat private, dan hanya dapat diakses melalui metode khusus seperti getter dan setter.
+
    
 2. Inheritance
 
-   > blablabka
+   
+   > Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child/anak) mewarisi atribut dan method dari class lain (parent/induk). Artinya, subclass dapat menggunakan kembali atribut dan method dari superclass, serta dapat menambahkan fitur baru atau mengubah perilaku yang sudah ada.
    
 3. Abstraction
 
-   > blabkabka
+   > Abstraction adalah konsep dalam object-oriented programming (OOP) yang bertujuan untuk menyederhanakan kompleksitas sistem dengan menyembunyikan detail-detail teknis yang tidak perlu.
    
 4. Polymorphism
 
-   > bla bla bla
+   > Polymorphism berasal dari bahasa Yunani, yaitu poly (banyak) dan morph (bentuk). Dalam OOP, polymorphism adalah kemampuan suatu method dengan nama yang sama untuk memiliki lebih dari satu perilaku atau kegunaan.
+   
+   > Polymorphism dibagi menjadi dua bentuk:
+   
+   > a. **Overloading**, method dengan nama sama tapi berbeda parameter/tipe data.
+   
+   > b. **Overriding**, method di subclass menimpa method dari superclass dengan perilaku
+berbeda.
    
 5. Interface
 
-   > blablabla
-   
+   > Interface adalah sebuah kontrak atau kerangka kerja dalam OOP yang hanya berisi deklarasi method (tanpa implementasi). Setiap class yang mengimplementasikan interface wajib mendefinisikan semua method yang ada di dalamnya. Berbeda dengan abstract class, interface tidak memiliki implementasi method, dan sebuah class dapat mengimplementasikan lebih dari satu interface sekaligus.
+     
 ---
 
 <h3 align="center">Struktur Package Program</h3>
@@ -71,6 +80,8 @@ EMPORIA tidak hanya membantu meningkatkan kelancaran perusahaan, tetapi juga men
 ---
 
 <h3 align="center">Flowchart & Use Case</h3>
+
+
 
 Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pendukung penjelasan program kami.
 
@@ -90,6 +101,7 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 2. **Keluar**, menutup aplikasi.
 
+---
 
 ### Menu Login
 
