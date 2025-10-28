@@ -33,13 +33,12 @@ EMPORIA tidak hanya membantu meningkatkan kelancaran perusahaan, tetapi juga men
 <h3 align="center">Fitur Program</h3>
 
 
-1. Menu Registrasi
 
-2. Menu Login
+1. Menu Login
 
-3. Menu Manajer
+2. Menu Manajer
 
-4. Menu Karyawan
+3. Menu Karyawan
 
 ---
 
@@ -105,3 +104,8 @@ Jika sesuai, sistem membaca peran (role) akun:
 - Karyawan akan diarahkan ke Menu Karyawan.
 
 Jika role tidak dikenali atau akun tidak aktif, pengguna dikembalikan ke Login.
+
+
+### Menu Manajer
+
+### Menu Karyawan
