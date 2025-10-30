@@ -32,6 +32,73 @@ EMPORIA tidak hanya membantu meningkatkan kelancaran perusahaan, tetapi juga men
 
 <h3 align="center">Fitur Program</h3>
 
+### 1. Menu Login
+
+
+### 2. Menu Manajer
+
+   a. Laporan Kinerja
+
+  > Cari Laporan
+
+  > Tambah Laporan
+ 
+  > Update Laporan
+
+  > Delete Laporan
+
+
+
+   b. Aktivitas Kerja
+
+   > Tambah Aktivitas Baru
+
+   > Cari Aktivitas Karyawan
+
+   c. Profil
+
+   > Update Data
+
+
+   d. Data User
+
+   > Cari Data User
+
+   > Update Data User
+
+   > Buat Akun Baru
+
+   
+   e. Survei Kesejahteraan Karyawan
+
+   > Cari Survei Karyawan
+
+
+   f. Feedback Karyawan
+
+   > Menampilkan Feedback Karyawan
+
+### 3. Menu Karyawan
+
+   a. Aktivitas Kerja
+
+   > Tambah Aktivitas Kerja
+
+   b. Survei Kesejahteraan
+
+   > Tambah Survei Kesejahteraan
+
+   c. Feedback
+
+   > Tambah Feedback
+
+   d. Profil Karyawan
+
+   > Menampilkan Data Profil Karyawan
+  
+   e. Laporan Kinerja
+
+   > Menampilkan Laporan Kinerja
 
 
 
