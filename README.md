@@ -195,8 +195,30 @@ Fitur Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. K
 
 **2. Survei Kesejahteraan**
 
+Pada menu Survei Kesejahteraan, karyawan dapat mengisi formulir yang berisi dua penilaian, yaitu tingkat stres dan kepuasan kerja.
+Karyawan juga harus mengisi tanggal survei sebagai penanda waktu pelaksanaan.
+Setelah seluruh kolom terisi, data disimpan secara otomatis ke dalam basis data dan akan digunakan oleh manajer untuk menilai kesejahteraan dan kondisi psikologis karyawan.
+Sistem kemudian menampilkan pesan bahwa data survei telah berhasil disimpan, dan karyawan dapat memilih untuk kembali ke menu utama atau mengisi survei kembali di lain waktu.
+
 **3. Feedback**
+
+Fitur Feedback berfungsi sebagai sarana komunikasi antara karyawan dan manajemen. Karyawan dapat mengirimkan pendapat, saran, atau keluhan yang berkaitan dengan lingkungan kerja, beban tugas, atau sistem yang digunakan. Untuk mengirimkan feedback, karyawan perlu mengisi tanggal dan isi pesan. Data kemudian disimpan ke dalam basis data dan ditampilkan pesan konfirmasi bahwa feedback berhasil dikirim.
+
+Karyawan juga dapat memilih untuk menambah feedback baru atau kembali ke menu utama setelah selesai.
+Melalui fitur ini, perusahaan dapat memahami kebutuhan karyawan secara lebih terbuka dan responsif.
 
 **4. Profil**
 
+Menu Profil Karyawan menampilkan informasi pribadi yang tersimpan di dalam sistem, seperti nama, departemen, jabatan, dan username.
+Selain menampilkan data, karyawan juga memiliki opsi untuk memperbarui (update) profilnya.
+Jika karyawan memilih untuk memperbarui data, sistem akan meminta input nama baru, username baru, dan password baru jika diperlukan.
+Setelah data disimpan dan diverifikasi, sistem akan menampilkan versi profil yang telah diperbarui.
+Apabila tidak ada perubahan yang dilakukan, karyawan dapat langsung kembali ke halaman utama Menu Karyawan.
+Fitur ini membantu memastikan bahwa setiap data pengguna selalu akurat dan terkini.
+
 **5. Laporan Kinerja**
+
+Fitur Laporan Kinerja memungkinkan karyawan untuk melihat hasil evaluasi yang dilakukan oleh manajer.
+Selain itu, Karyawan dapat mencari laporan kinerjanya sendiri berdasarkan nama, kemudian sistem akan menampilkan data seperti rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi yang diberikan.
+Setelah laporan ditampilkan, karyawan dapat meninjau hasilnya dan kembali ke menu utama.
+Fitur ini mendukung transparansi antara manajer dan karyawan serta membantu karyawan memahami area yang perlu ditingkatkan.
