@@ -122,4 +122,26 @@ Jika role tidak dikenali atau akun tidak aktif, pengguna dikembalikan ke Login.
 
 ### .ᐟ.ᐟ Menu Manajer
 
+Menu ini merupakan tampilan utama bagi pengguna dengan role Manajer. Setelah berhasil login, manajer akan diarahkan ke menu ini untuk mengakses berbagai fitur yang berhubungan dengan pengawasan dan evaluasi kinerja karyawan.
+
+Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
+
+1. Laporan Kinerja Karyawan
+
+   Pada bagian ini, manajer dapat mencari, menambah, mengedit, dan menghapus data laporan kinerja karyawan.
+
+   - Jika ingin menambah laporan baru, manajer dapat mengisi data seperti nama karyawan, rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi.
+  
+   - Jika ingin memperbarui laporan, manajer memilih data yang akan diedit lalu mengubah nilai sesuai hasil penilaian terbaru.
+  
+   - Manajer juga dapat menghapus laporan tertentu bila data tidak valid atau perlu diganti.
+  
+   Semua data yang diinput akan disimpan otomatis ke dalam basis data agar mudah dipantau dan diperbarui.
+
+2. Aktivitas Kerja Karyawan
+
+   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Manajer dapat menambah aktivitas baru atau memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. Data aktivitas ini berguna untuk menghitung total waktu kerja dan tingkat kehadiran
+
+3. 
+
 ### ☆ Menu Karyawan
