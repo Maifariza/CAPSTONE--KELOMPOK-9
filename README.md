@@ -126,7 +126,7 @@ Menu ini merupakan tampilan utama bagi pengguna dengan role Manajer. Setelah ber
 
 Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
 
-1. Laporan Kinerja Karyawan
+**1. Laporan Kinerja Karyawan**
 
    Pada bagian ini, manajer dapat mencari, menambah, mengedit, dan menghapus data laporan kinerja karyawan.
 
@@ -138,10 +138,49 @@ Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
   
    Semua data yang diinput akan disimpan otomatis ke dalam basis data agar mudah dipantau dan diperbarui.
 
-2. Aktivitas Kerja Karyawan
+**2. Aktivitas Kerja**
 
    Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Manajer dapat menambah aktivitas baru atau memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. Data aktivitas ini berguna untuk menghitung total waktu kerja dan tingkat kehadiran
 
-3. 
+**3. Profil**
+
+  Menu ini menampilkan informasi pribadi manajer yang sedang login ke dalam aplikasi. Data yang ditampilkan mencakup identitas dasar seperti nama, departemen, username, dan peran pengguna. Tujuan utama dari menu ini adalah agar manajer dapat melihat dan memastikan data pribadinya tercatat dengan benar di dalam sistem.
+
+  Selain hanya menampilkan data, menu ini juga menyediakan fitur update data. Jika manajer ingin memperbarui informasi tertentu, seperti nama, departemen, atau data akun lainnya, manajer dapat memilih data yang ingin diubah. Setelah dilakukan perubahan, sistem akan menyimpan pembaruan tersebut ke dalam basis data, lalu menampilkan profil yang sudah diperbarui.
+
+**4. Data User**
+
+Menu ini digunakan untuk mengelola seluruh data pengguna yang terdaftar di sistem, baik Manajer maupun Karyawan. Tujuannya adalah agar manajer dapat memastikan seluruh akun pengguna aktif, datanya akurat, dan siap digunakan dalam kegiatan operasional sistem.
+
+Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
+
+- Cari Data User
+
+  Manajer dapat mencari data pengguna tertentu berdasarkan nama. Setelah sistem menemukan data yang sesuai, informasi lengkap pengguna tersebut akan ditampilkan. Fitur ini membantu manajer dalam melakukan pengecekan cepat terhadap data karyawan atau sesama manajer yang sudah terdaftar di sistem.
+
+  
+- Update Data User
+
+  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan.
+  
+- Buat Akun Baru
+
+  Fitur ini digunakan ketika ada karyawan baru yang akan bergabung ke dalam sistem. Manajer dapat menambahkan data baru dengan mengisi nama, departemen, gaji, status kerja, dan peran (role). Setelah itu, manajer membuat username dan password untuk akun tersebut. Sistem akan memeriksa apakah username sudah digunakan; jika belum, data baru akan disimpan ke dalam basis data, dan akun karyawan siap digunakan untuk login pertama kali.
+
+**5. Survei Kesejahteraan Karyawan**
+
+Menu Survei Kesejahteraan Karyawan berfungsi untuk membantu manajer dalam memantau kondisi psikologis dan tingkat kepuasan kerja karyawan melalui hasil survei yang telah diisi oleh masing-masing karyawan. Melalui fitur ini, manajer dapat menilai sejauh mana keseimbangan antara beban kerja dan kesejahteraan karyawan terjaga.
+
+Ketika manajer memilih menu ini, sistem akan menampilkan halaman pencarian data survei. Manajer dapat memasukkan nama karyawan yang ingin dicari, kemudian sistem akan menelusuri basis data untuk menemukan hasil survei milik karyawan tersebut. Jika nama yang dimasukkan valid dan ditemukan di dalam basis data, sistem akan menampilkan rincian hasil survei, seperti tingkat stres dan kepuasan kerja karyawan.
+
+Selain itu, tersedia opsi untuk melakukan pencarian ulang apabila manajer ingin melihat survei dari karyawan lain. Jika proses pencarian telah selesai, manajer dapat memilih tombol Kembali untuk keluar dari menu dan kembali ke halaman utama Menu Manajer.
+
+
+**6. Feedback Karyawan**
+
+Di menu ini, manajer dapat melihat feedback yang diberikan oleh karyawan terkait kondisi kerja, beban tugas, maupun lingkungan perusahaan. Fitur ini berperan penting sebagai sarana komunikasi dua arah antara karyawan dan manajemen, sehingga perusahaan dapat memahami kendala, saran, atau aspirasi yang disampaikan secara langsung oleh karyawan.
+
+Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback yang telah dikirimkan oleh karyawan dan tersimpan di dalam basis data. Melalui feedback yang diberikan, manajer dapat mengidentifikasi permasalahan secara lebih dini serta mengambil langkah yang tepat untuk menciptakan suasana kerja yang lebih baik dan kondusif bagi seluruh karyawan.
+
 
 ### ☆ Menu Karyawan
