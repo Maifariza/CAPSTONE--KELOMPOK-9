@@ -73,6 +73,12 @@ berbeda.
 
 <h3 align="center">Struktur Package Program</h3>
 
+> Package merupakan mekanisme pengelompokan class, interface, atau sub-package berdasarkan jenis/fungsi-nya. Sistem package hampir sama seperti folder, namun package juga berfungsi sebagai namespace yang digunakan untuk memisahkan dan mengidentifikasi komponen menjadi bagian tertentu.
+
+---
+
+<h3 align="center">Nilai Tambah</h3>
+
 ---
 
 <h3 align="center">Flowchart & Use Case</h3>
@@ -87,9 +93,9 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 <h3 align="center">Cara Menggunakan Program Emporia</h3>
 
-### Menu Utama
+### ᯓ★ Menu Utama
 
-Ini adalah halaman utama saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi.
+Ini adalah halaman utama saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
 
 Terdapat 2 tombol pilihan utamanya, yaitu:
 
@@ -99,7 +105,7 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 ---
 
-### Menu Login
+### ⋆˚𝜗𝜚˚⋆ Menu Login
 
 Pada halaman ini, pengguna memasukkan username dan password, lalu menekan tombol Masuk. Sistem memeriksa kecocokan kredensial ke basis data.
 
@@ -114,6 +120,6 @@ Jika sesuai, sistem membaca peran (role) akun:
 Jika role tidak dikenali atau akun tidak aktif, pengguna dikembalikan ke Login.
 
 
-### Menu Manajer
+### .ᐟ.ᐟ Menu Manajer
 
-### Menu Karyawan
+### ☆ Menu Karyawan
