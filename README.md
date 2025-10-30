@@ -119,6 +119,7 @@ Jika sesuai, sistem membaca peran (role) akun:
 
 Jika role tidak dikenali atau akun tidak aktif, pengguna dikembalikan ke Login.
 
+---
 
 ### .ᐟ.ᐟ Menu Manajer
 
@@ -182,6 +183,9 @@ Di menu ini, manajer dapat melihat feedback yang diberikan oleh karyawan terkait
 
 Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback yang telah dikirimkan oleh karyawan dan tersimpan di dalam basis data. Melalui feedback yang diberikan, manajer dapat mengidentifikasi permasalahan secara lebih dini serta mengambil langkah yang tepat untuk menciptakan suasana kerja yang lebih baik dan kondusif bagi seluruh karyawan.
 
+
+---
+
 ### ᯓ★ Menu Register
 
 Menu Registrasi digunakan oleh Manajer untuk menambahkan akun baru bagi karyawan yang baru bergabung ke dalam sistem. Fitur ini memastikan setiap karyawan memiliki akses pribadi untuk masuk ke aplikasi EMPORIA
@@ -193,6 +197,8 @@ Proses pendaftaran dimulai dengan pengisian nama dan departemen karyawan. Setela
 - Jika username belum digunakan, proses dilanjutkan dengan pengisian password untuk akun baru tersebut.
 
 Setelah seluruh data terisi dengan benar, sistem menyimpan informasi tersebut ke dalam basis data dan mengarahkan pengguna kembali ke Menu Utama. Setiap akun baru yang terdaftar akan langsung terintegrasi dengan sistem, sehingga karyawan baru dapat segera menggunakan aplikasi untuk mencatat aktivitas kerja dan mengisi survei kesejahteraan.
+
+---
 
 ### ☆ Menu Karyawan
 
