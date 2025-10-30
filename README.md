@@ -162,7 +162,7 @@ Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
   
 - Update Data User
 
-  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan.
+  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. Setelah data diperbarui, sistem akan menyimpan hasil perubahan ke dalam basis data dan menampilkan versi data terbaru sebagai konfirmasi.
   
 - Buat Akun Baru
 
