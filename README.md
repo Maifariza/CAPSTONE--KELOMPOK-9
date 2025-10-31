@@ -34,128 +34,66 @@ EMPORIA tidak hanya membantu meningkatkan kelancaran perusahaan, tetapi juga men
 
 ### 1. Menu Login
 
-Menu Login adalah tampilan pertama ketika aplikasi EMPORIA dijalankan. Pada halaman ini, pengguna memasukkan username dan password, lalu menekan tombol Login. Sistem kemudian melakukan verifikasi ke basis data untuk memastikan kredensial yang dimasukkan valid. Setelah kredensial tervalidasi, sistem menampilkan notifikasi “Login berhasil sebagai [Role]” dan otomatis mengarahkan pengguna ke menu sesuai perannya (Karyawan atau Manajer).
+Menu Login adalah tampilan pertama ketika aplikasi EMPORIA dijalankan. Pada halaman ini, pengguna memasukkan username dan password, lalu menekan tombol Login. Sistem kemudian melakukan verifikasi ke database untuk memastikan kredensial yang dimasukkan valid. Setelah kredensial tervalidasi, sistem menampilkan notifikasi “Login berhasil sebagai [Role]” dan otomatis mengarahkan pengguna ke menu sesuai perannya (Karyawan atau Manajer).
 
 
 ### 2. Menu Manajer
 
-Setelah pengguna berhasil login sebagai Manajer, sistem akan menampilkan halaman utama Menu Manajer. Pada menu ini, manajer memiliki akses penuh terhadap berbagai fitur pengelolaan data yang berkaitan dengan karyawan dan kegiatan operasional perusahaan. Fitur-fitur ini dirancang untuk membantu manajer memantau kesejahteraan, produktivitas, serta kinerja setiap karyawan secara terintegrasi melalui basis data.
+Setelah pengguna berhasil login sebagai Manajer, sistem akan menampilkan halaman utama Menu Manajer. 
 
-Menu Manajer terdiri atas beberapa bagian utama, yaitu:
+Menu Manajer terdiri atas beberapa fitur, yaitu:
 
    a. Laporan Kinerja
 
-   Fitur ini digunakan untuk mengelola data laporan kinerja karyawan. 
+   Menu Laporan Kinerja digunakan untuk mengelola data hasil evaluasi kinerja karyawan. Manajer mendapat hak penuh atas laporan kinerja. Manajer dapat mencari, menambahkan, memperbarui, atau menghapus laporan karyawan sesuai dengan kebutuhan. Saat membuka menu ini, sistem menampilkan data laporan lengkap yang berisi nama karyawan, rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi. 
    
-   Manajer dapat melakukan beberapa tindakan berikut:
-
-  > Cari Laporan
-
-  > Tambah Laporan
- 
-  > Update Laporan
-
-  > Delete Laporan
-
-
-
    b. Aktivitas Kerja
 
-   Fitur Aktivitas Kerja digunakan manajer untuk menambah catatan aktivitas kerja dan juga menampilkan catatan milik karyawan. 
-   
-   Melalui menu ini, manajer dapat:
-
-   > Tambah Aktivitas Baru
-
-   > Cari Aktivitas Karyawan
-
-
+   Menu Aktivitas Kerja, digunakan untuk mencatat kehadiran dan jam kerja manajer setiap harinya. Selain itu, manajer juga mendapat fitur untuk menampilkan dan mencari catatan aktivitas harian setiap karyawan, termasuk jam masuk, jam pulang, serta total durasi kerja per hari. 
+  
    c. Profil
 
-   Bagian ini menampilkan data pribadi manajer yang sedang login. Manajer dapat meninjau dan memperbarui informasi pribadinya seperti nama, departemen, dan data akun jika diperlukan. Setiap perubahan akan disimpan ke dalam basis data, dan sistem menampilkan profil terbaru sebagai konfirmasi bahwa pembaruan berhasil dilakukan.
-
-   Melalui menu ini, manajer dapat:
-
-   > Menampilkan Profil
-
-   > Update Data
+   Menu Profil menampilkan data pribadi manajer yang sedang login. Data yang ditampilkan meliputi nama, departemen, dan username akun. Selain menampilkan informasi, manajer juga dapat memperbarui data jika terdapat perubahan. Setelah dilakukan pembaruan, sistem akan menyimpan data baru ke database dan menampilkan profil yang telah diperbarui.
 
 
    d. Data User
 
-   Menu Data User berfungsi untuk mengelola seluruh akun pengguna yang terdaftar dalam sistem, baik akun manajer maupun karyawan.
-   
-   Melalui fitur ini, manajer dapat:
-
-   > Cari Data User
-
-   > Update Data User
-
-   > Buat Akun Baru
+   Menu Data User berfungsi untuk mengelola seluruh akun pengguna, baik akun manajer maupun karyawan. Melalui menu ini, manajer memiliki akses untuk mencari, memperbarui data selain data profilnya, dan juga menambahkan data karyawan baru ke dalam sistem.
 
    
    e. Survei Kesejahteraan Karyawan
    
-   Fitur ini memungkinkan manajer mencari dan melihat hasil survei kesejahteraan yang diisi oleh karyawan. Data yang ditampilkan meliputi tingkat stres dan kepuasan kerja, yang menjadi indikator kesejahteraan karyawan di lingkungan kerja. Informasi ini membantu manajer mengambil keputusan yang lebih manusiawi dalam menyeimbangkan beban kerja dan kondisi psikologis tim.
-
-   Melalui menu ini, manajer dapat:
-   
-   > Cari Survei Karyawan
-
+  Menu Survei Kesejahteraan Karyawan memungkinkan manajer untuk menampilkan dan mencari hasil survei kesejahteraan yang diisi oleh setiap karyawan. Data yang ditampilkan meliputi tingkat stres dan kepuasan kerja, yang menjadi indikator kesejahteraan karyawan di lingkungan kerja. Informasi ini membantu manajer mengambil keputusan yang lebih manusiawi dalam menyeimbangkan beban kerja dan kondisi psikologis tim.
 
    f. Feedback Karyawan
 
-   Fitur Feedback Karyawan berisi kumpulan saran, masukan, atau keluhan yang dikirimkan oleh karyawan. Manajer dapat meninjau setiap feedback yang masuk untuk memahami kebutuhan dan permasalahan di lapangan, sehingga dapat memberikan solusi atau tindak lanjut yang tepat.
-
-   > Menampilkan Feedback Karyawan
+   Fitur Feedback Karyawan berisi kumpulan saran, masukan, atau keluhan yang dikirimkan oleh karyawan melalui sistemm. Manajer dapat meninjau setiap feedback yang masuk untuk memahami kebutuhan dan permasalahan yang ada, sehingga dapat memberikan solusi atau tindak lanjut yang tepat. Fitur ini yang menjadi media komunikasi dua arah antara manajemen dan karyawan untuk membangun lingkungan kerja yang lebih terbuka.
 
 ### 3. Menu Karyawan
 
-Setelah pengguna berhasil login sebagai Karyawan, sistem akan menampilkan halaman utama Menu Karyawan. Menu ini berisi berbagai fitur yang digunakan oleh karyawan untuk mencatat aktivitas kerja, mengisi survei kesejahteraan, memberikan umpan balik, memperbarui profil, serta melihat hasil laporan kinerja yang diberikan oleh manajer.
-Semua data yang diinput oleh karyawan akan tersimpan secara otomatis di dalam basis data dan dapat diakses kembali sesuai kebutuhan.
+Setelah pengguna berhasil login sebagai Karyawan, sistem akan menampilkan halaman utama Menu Karyawan. 
 
-Menu Karyawan terdiri atas beberapa bagian utama berikut:
+Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 
    a. Aktivitas Kerja
 
-   Fitur Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. Karyawan dapat menambahkan data aktivitas baru dengan mengisi tanggal, jam masuk, dan jam pulang, kemudian sistem akan menyimpan informasi tersebut ke dalam basis data. Setelah data berhasil ditambahkan, sistem menampilkan pesan konfirmasi bahwa aktivitas telah tercatat.
+   Menu Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. Karyawan diminta mmengisi tanggal pengisian, jam masuk, dan jam pulang setiap hari. Data aktivitas ini menjadi dasar perhitungan total jam kerja dan lembur yang digunakan dalam laporan kinerja.
    
-   Melalui menu ini, karyawan dapat:
-
-   > Tambah Aktivitas Kerja
-
    b. Survei Kesejahteraan
 
-   Fitur Survei Kesejahteraan berfungsi untuk menilai kondisi psikologis dan tingkat kepuasan kerja karyawan. Pada menu ini, karyawan mengisi formulir survei yang memuat dua parameter utama, yaitu tingkat stres dan kepuasan kerja, serta tanggal survei sebagai tanda waktu pelaksanaan. Setelah seluruh data diisi, sistem menyimpannya secara otomatis ke dalam basis data dan menampilkan notifikasi bahwa survei berhasil disimpan. Data survei ini nantinya digunakan oleh manajer untuk menganalisis kesejahteraan karyawan dan menilai keseimbangan antara beban kerja dan kondisi mental di lingkungan kerja.
-
-  Melalui menu ini, karyawan dapat:
-
-   > Tambah Survei Kesejahteraan
+   Menu Survei Kesejahteraan berfungsi untuk menilai kondisi psikologis dan tingkat kepuasan kerja karyawan. Pada menu ini, karyawan mengisi formulir survei yang memuat dua penilaian utama, yaitu tingkat stres dan kepuasan kerja, serta tanggal survei sebagai tanda waktu pelaksanaan. Data survei ini nantinya digunakan oleh manajer untuk menganalisis kesejahteraan karyawan dan menilai keseimbangan antara beban kerja dan kondisi mental di lingkungan kerja.
 
    c. Feedback
-
-   Fitur Feedback memungkinkan karyawan untuk menyampaikan pendapat, saran, maupun keluhan terkait pekerjaan dan lingkungan kerja. Karyawan dapat menuliskan isi feedback beserta tanggal pengiriman, lalu sistem menyimpan data tersebut ke dalam basis data.
    
-   Melalui menu ini, karyawan dapat:
-
-
-   > Tambah Feedback
-
+   Menu Feedback menjadi sarana komunikasi antara karyawan dan manajemen. Karyawan dapat menulis pendapat, saran, atau keluhan terkait pekerjaan maupun lingkungan kerja. Karyawan diminta menuliskan isi feedback beserta tanggal pengiriman. Masukan yang diterima akan ditinjau oleh manajer untuk meningkatkan kualitas dan kenyamanan kerja.
+  
    d. Profil Karyawan
 
    Bagian ini menampilkan data pribadi karyawan yang sedang login ke dalam sistem. Karyawan dapat melihat informasi seperti nama, departemen, jabatan, serta username. Selain itu, tersedia opsi untuk memperbarui (update) data jika terjadi perubahan, seperti mengganti nama, username, atau password.
 
-   Melalui menu ini, karyawan dapat:
-
-   > Menampilkan Data Profil Karyawan
-  
    e. Laporan Kinerja
 
-   Fitur Laporan Kinerja memungkinkan karyawan untuk melihat hasil evaluasi yang dilakukan oleh manajer. Karyawan dapat mencari laporan kinerjanya sendiri berdasarkan nama, lalu sistem akan menampilkan hasil berupa rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, serta rekomendasi dari manajer.
-   
-   Melalui menu ini, karyawan dapat:
-
-   > Menampilkan Laporan Kinerja
+   Menu Laporan Kinerja memungkinkan karyawan melihat hasil evaluasi yang dibuat oleh manajer. Laporan berisi rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi dari manajer. Di menu ini karyawan hanya bisa melihat laporan kinerja nya, membantu karyawan memahami pencapaiannya serta area yang perlu ditingkatkan.
 
 
 
