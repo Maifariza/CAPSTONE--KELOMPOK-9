@@ -300,19 +300,6 @@ Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback y
 
 ---
 
-### ᯓ★ Menu Register
-
-Menu Registrasi digunakan oleh Manajer untuk menambahkan akun baru bagi karyawan yang baru bergabung ke dalam sistem. Fitur ini memastikan setiap karyawan memiliki akses pribadi untuk masuk ke aplikasi EMPORIA
-
-Proses pendaftaran dimulai dengan pengisian nama dan departemen karyawan. Setelah itu, manajer diminta untuk membuat username baru yang akan digunakan oleh karyawan tersebut. Sistem kemudian memeriksa apakah username yang dimasukkan sudah pernah digunakan atau belum.
-
-- Jika username sudah ada, sistem akan meminta manajer untuk memasukkan username lain hingga diperoleh nama pengguna yang unik.
-
-- Jika username belum digunakan, proses dilanjutkan dengan pengisian password untuk akun baru tersebut.
-
-Setelah seluruh data terisi dengan benar, sistem menyimpan informasi tersebut ke dalam basis data dan mengarahkan pengguna kembali ke Menu Utama. Setiap akun baru yang terdaftar akan langsung terintegrasi dengan sistem, sehingga karyawan baru dapat segera menggunakan aplikasi untuk mencatat aktivitas kerja dan mengisi survei kesejahteraan.
-
----
 
 ### ☆ Menu Karyawan
 
