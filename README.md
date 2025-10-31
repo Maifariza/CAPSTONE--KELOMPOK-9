@@ -169,7 +169,7 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 ### ⋆˚𝜗𝜚˚⋆ Menu Login
 
-Pada menu ini, pengguna memasukkan username dan password, lalu menekan tombol Login. Sistem memeriksa kecocokan data ke database. 
+Pada menu ini, pengguna diminta untuk memasukkan username dan password lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
 Jika username atau password tidak sesuai, sistem akan menampilkan pemberitahuan untuk mengisi kembali username atau password dengan benar.
 
@@ -192,6 +192,8 @@ Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
 
    Pada bagian ini, manajer dapat mencari, menambah, mengedit, dan menghapus data laporan kinerja karyawan.
 
+   - Jika ingin mencari laporan karyawan, manajer dapat mencari berdasarkan nama karyawan. Setelah itu, sistem akan menampilkan laporan kinerja karyawan tersebut.
+   
    - Jika ingin menambah laporan baru, manajer dapat mengisi data seperti nama karyawan, rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi.
   
    - Jika ingin memperbarui laporan, manajer memilih data yang akan diedit lalu mengubah nilai sesuai hasil penilaian terbaru.
@@ -202,7 +204,7 @@ Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
 
 **2. Aktivitas Kerja**
 
-   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Manajer dapat menambah aktivitas baru atau memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. Data aktivitas ini berguna untuk menghitung total waktu kerja dan tingkat kehadiran
+   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. Data aktivitas ini berguna untuk menghitung total waktu kerja dan tingkat kehadiran
 
 **3. Profil**
 
@@ -250,13 +252,13 @@ Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback y
 
 ### ☆ Menu Karyawan
 
-Menu Karyawan merupakan halaman utama yang ditampilkan setelah pengguna dengan role Karyawan berhasil melakukan login. Melalui menu ini, karyawan dapat mengakses seluruh fitur yang berkaitan dengan aktivitas kerja harian, pengisian survei kesejahteraan, mengisi feedback, pembaruan profil, serta melihat laporan kinerja yang diberikan oleh manajer.
+Menu Karyawan merupakan halaman utama yang ditampilkan setelah pengguna dengan role Karyawan berhasil melakukan login. 
 
 Adapun fitur-fitur utama pada menu ini meliputi:
 
 **1. Aktivitas Kerja**
 
-Fitur Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. Karyawan akan mengisi tanggal, jam masuk, dan jam pulang, lalu sistem menyimpan data tersebut ke dalam basis data. Fitur ini berfungsi sebagai dasar perhitungan total jam kerja dan lembur yang akan digunakan dalam laporan kinerja.
+Fitur Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. Karyawan akan diminta untuk mengisi tanggal, jam masuk, dan jam pulang, lalu sistem menyimpan data tersebut ke dalam basis data. Fitur ini berfungsi sebagai dasar perhitungan total jam kerja dan lembur yang akan digunakan dalam laporan kinerja.
 
 **2. Survei Kesejahteraan**
 
