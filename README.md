@@ -169,6 +169,15 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 ### ⋆˚𝜗𝜚˚⋆ Menu Login
 
+Pada menu ini, pengguna memasukkan username dan password, lalu menekan tombol Login. Sistem memeriksa kecocokan data ke database. 
+
+Jika username atau password tidak sesuai, sistem akan menampilkan pemberitahuan untuk mengisi kembali username atau password dengan benar.
+
+Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil sebagai (Role)". 
+
+- Manajer akan diarahkan ke Menu Manajer.
+
+- Karyawan akan diarahkan ke Menu Karyawan.
 
 
 ---
