@@ -137,35 +137,57 @@ berbeda.
 
 Package merupakan mekanisme pengelompokan class, interface, atau sub-package berdasarkan jenis/fungsi-nya. Sistem package hampir sama seperti folder, namun package juga berfungsi sebagai namespace yang digunakan untuk memisahkan dan mengidentifikasi komponen menjadi bagian tertentu.
 
-<img width="288" height="255" alt="image" src="https://github.com/user-attachments/assets/c671d457-8c0c-4507-a91a-655cf6fddcb6" />
+Di EMPORIA, Packages yang digunakan adalah:
+
+> <img width="288" height="255" alt="image" src="https://github.com/user-attachments/assets/c671d457-8c0c-4507-a91a-655cf6fddcb6" />
 
 
-### Gui
 
-<img width="259" height="309" alt="image" src="https://github.com/user-attachments/assets/1e24a925-decc-4e46-96c8-d7fccbe4cb09" />
+### com.mycompany.capstone.Gui
 
-### Capstone
+> <img width="259" height="309" alt="image" src="https://github.com/user-attachments/assets/1e24a925-decc-4e46-96c8-d7fccbe4cb09" />
 
-<img width="264" height="44" alt="image" src="https://github.com/user-attachments/assets/0ca588c7-0973-4d19-8568-085e3ae0a096" />
+> Packages ini berisi seluruh tampilan aplikasi berbasis Swing. Di sini terdapat frame dan panel seperti halaman utama, login, menu manajer, dan menu karyawan. Fokusnya hanya pada tampilan program, seperti menata elemen, menyajikan informasi, dan merekam tindakan pengguna. Jika terjadi interaksi, panel akan meneruskan permintaan ke lapisan di bawahnya, bukan memproses database sendiri, agar logika bisnis tetap rapi dan terpisah dari antarmuka.
 
-### Dao
+### com.mycompany.capstone.capstone (entry point)
 
-<img width="238" height="116" alt="image" src="https://github.com/user-attachments/assets/ed25f69e-402c-4c2d-a1d3-7806edf192d5" />
+> <img width="264" height="44" alt="image" src="https://github.com/user-attachments/assets/0ca588c7-0973-4d19-8568-085e3ae0a096" />
 
-### Db
+> Paket com.mycompany.capstone.capstone berfungsi sebagai titik awal atau entry point dari aplikasi EMPORIA. Di dalamnya terdapat kelas utama yang bertugas untuk menjalankan program, memuat seluruh konfigurasi yang dibutuhkan, serta menyiapkan koneksi awal ke database melalui Hibernate. Setelah proses inisialisasi selesai, sistem akan menampilkan jendela utama aplikasi (Main Frame) dan mengarahkan pengguna ke halaman awal, yaitu tampilan welcome dan login.
 
-<img width="224" height="43" alt="image" src="https://github.com/user-attachments/assets/5986307a-1490-4d6c-8cd8-c73837dc6869" />
+> Packages ini berperan seperti “tombol start” bagi aplikasi. Semua proses awal dimulai dari sini sebelum pengguna berinteraksi lebih jauh dengan fitur-fitur yang ada di dalam sistem.
 
-### Model
+### com.mycompany.capstone.dao
 
-<img width="248" height="150" alt="image" src="https://github.com/user-attachments/assets/c8f11da5-d832-4548-a7a9-45749a7b14fe" />
+> <img width="238" height="116" alt="image" src="https://github.com/user-attachments/assets/ed25f69e-402c-4c2d-a1d3-7806edf192d5" />
 
-### Service
+> Packages ini menampung semua kelas Data Access Object (DAO), yaitu pintu utama keluar masuk data ke database lewat Hibernate. Setiap DAO fokus pada satu tabel/entitas agar rapi dan mudah.
 
-<img width="253" height="130" alt="image" src="https://github.com/user-attachments/assets/4d29ffbb-f647-4bec-85db-a6281745a6b3" />
+> - UserDAO untuk akun dan autentikasi.
+
+> - AktivitasDAO untuk catatan jam kerja.
+
+> - SurveiDAO untuk isian survei kesejahteraan
+
+> - LaporanKinerjaDAO untuk data evaluasi dan rekomendasi.
+
+> - Serta FeedbackDAO untuk masukan dari karyawan.
 
 
-### Util
+### com.mycompany.capstone.db
+
+> <img width="224" height="43" alt="image" src="https://github.com/user-attachments/assets/5986307a-1490-4d6c-8cd8-c73837dc6869" />
+
+### com.mycompany.capstone.model
+
+> <img width="248" height="150" alt="image" src="https://github.com/user-attachments/assets/c8f11da5-d832-4548-a7a9-45749a7b14fe" />
+
+### com.mycompany.capstone.service
+
+> <img width="253" height="130" alt="image" src="https://github.com/user-attachments/assets/4d29ffbb-f647-4bec-85db-a6281745a6b3" />
+
+
+### com.mycompany.capstone.util
 
 <img width="237" height="45" alt="image" src="https://github.com/user-attachments/assets/45bf81f3-503c-428d-9f7c-5a7d122ed74e" />
 
