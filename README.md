@@ -189,7 +189,21 @@ Di EMPORIA, Packages yang digunakan adalah:
 
 ### com.mycompany.capstone.util
 
-<img width="237" height="45" alt="image" src="https://github.com/user-attachments/assets/45bf81f3-503c-428d-9f7c-5a7d122ed74e" />
+> <img width="237" height="45" alt="image" src="https://github.com/user-attachments/assets/45bf81f3-503c-428d-9f7c-5a7d122ed74e" />
+
+### Pom.xml
+
+> <img width="157" height="59" alt="image" src="https://github.com/user-attachments/assets/20cb4075-e813-4a4f-9a55-a777d57767ff" />
+
+
+
+### Dependencies
+
+> <img width="326" height="394" alt="image" src="https://github.com/user-attachments/assets/5a6d3043-7772-4986-a6dc-7ed117bc7d0d" />
+
+### Hibernate.cfg.xml
+
+> <img width="206" height="54" alt="image" src="https://github.com/user-attachments/assets/8d279e45-bf2d-4d64-a86d-2e900c7147e4" />
 
 
 ---
