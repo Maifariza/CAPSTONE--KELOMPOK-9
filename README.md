@@ -234,7 +234,7 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 ### ᯓ★ Menu Utama
 
-Ini adalah halaman utama saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
+Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
 
 Terdapat 2 tombol pilihan utamanya, yaitu:
 
@@ -242,13 +242,13 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 2. **Keluar**, menutup aplikasi.
 
+
+
 ---
 
 ### ⋆˚𝜗𝜚˚⋆ Menu Login
 
-Pada menu ini, pengguna diminta untuk memasukkan username dan password lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
-
-Jika username atau password tidak sesuai, sistem akan menampilkan pemberitahuan untuk mengisi kembali username atau password dengan benar.
+Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
 Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil sebagai (Role)". 
 
@@ -257,27 +257,29 @@ Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil
 - Karyawan akan diarahkan ke Menu Karyawan.
 
 
+
+**Validasi Input**
+
+Jika username atau password tidak sesuai, sistem akan menampilkan pemberitahuan untuk mengisi kembali username atau password dengan benar.
+
+
+
 ---
 
 ### .ᐟ.ᐟ Menu Manajer
 
-Menu ini merupakan tampilan utama bagi pengguna dengan role Manajer. Setelah berhasil login, manajer akan diarahkan ke menu ini untuk mengakses berbagai fitur yang berhubungan dengan pengawasan dan evaluasi kinerja karyawan.
+Halaman ini merupakan menu utama bagi pengguna dengan peran Manajer, yang berfungsi sebagai pusat navigasi untuk mengakses berbagai fitur pengawasan dan evaluasi kinerja karyawan. Setelah berhasil login, pengguna dengan role Manajer akan diarahkan ke halaman ini sebagai beranda awal sistem.
 
-Fitur-fitur yang terdapat pada Menu Manajer, yaitu:
+Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili fitur manajer, yaitu Laporan Kinerja untuk melihat hasil evaluasi performa karyawan, Aktivitas Kerja untuk memantau kegiatan atau tugas harian karyawan, Profil untuk melihat dan memperbarui data pribadi, Data User untuk mengelola informasi pengguna sistem, Lihat Feedback Karyawan untuk membaca masukan atau penilaian dari karyawan, Survei Kesejahteraan untuk memantau tingkat kesejahteraan karyawan melalui survei internal. 
+
+Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login.
+
+
+---
 
 **1. Laporan Kinerja Karyawan**
 
-   Pada bagian ini, manajer dapat mencari, menambah, mengedit, dan menghapus data laporan kinerja karyawan.
-
-   - Jika ingin mencari laporan karyawan, manajer dapat mencari berdasarkan nama karyawan. Setelah itu, sistem akan menampilkan laporan kinerja karyawan tersebut.
-   
-   - Jika ingin menambah laporan baru, manajer dapat mengisi data seperti nama karyawan, rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi.
-  
-   - Jika ingin memperbarui laporan, manajer memilih data yang akan diedit lalu mengubah nilai sesuai hasil penilaian terbaru.
-  
-   - Manajer juga dapat menghapus laporan tertentu bila data tidak valid atau perlu diganti.
-  
-   Semua data yang diinput akan disimpan otomatis ke dalam basis data agar mudah dipantau dan diperbarui.
+   Halaman ini berfungsi sebagai pusat pengelolaan data performa karyawan untuk peran Manajer. Di bagian atas tersedia kolom “Cari Username” beserta tombol Search untuk memfilter data berdasarkan nama karyawan, sementara tombol Log Out berada di sisi kanan atas untuk mengakhiri sesi. Area utama memuat form isian yang mencakup Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi; di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Ringkasan seluruh entri ditampilkan pada tabel di bagian bawah dengan kolom yang sama, sehingga manajer dapat meninjau, memilih, dan mengelola data secara cepat. Setelah selesai, pengguna dapat menekan tombol Kembali untuk kembali ke menu sebelumnya.
 
 **2. Aktivitas Kerja**
 
