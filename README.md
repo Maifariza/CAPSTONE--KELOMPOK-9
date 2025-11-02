@@ -1,4 +1,4 @@
-<h1 align="center">CAPSTONE KELOMPOK 9</h1>
+<img width="1270" height="715" alt="image" src="https://github.com/user-attachments/assets/2b77165f-7b3d-4a11-b0f3-dbde3cf450d4" /><h1 align="center">CAPSTONE KELOMPOK 9</h1>
 
 <h2 align="center">EMPORIA</h2>
 
@@ -285,7 +285,7 @@ Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili f
 
 <img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/b6e74a48-e7af-4a75-8cb3-2db5ce4187c0" />
 
-Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan.
+Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
 > (GAMBAR NOTIFIKASI)
 
@@ -293,7 +293,16 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 **1. Laporan Kinerja Karyawan**
 
-   Halaman ini berfungsi sebagai pusat pengelolaan data performa karyawan untuk peran Manajer. Di bagian atas tersedia kolom “Cari Username” beserta tombol Search untuk memfilter data berdasarkan nama karyawan, sementara tombol Log Out berada di sisi kanan atas untuk mengakhiri sesi. Area utama memuat form isian yang mencakup Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi; di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Ringkasan seluruh entri ditampilkan pada tabel di bagian bawah dengan kolom yang sama, sehingga manajer dapat meninjau, memilih, dan mengelola data secara cepat. Setelah selesai, pengguna dapat menekan tombol Kembali untuk kembali ke menu sebelumnya.
+   Halaman ini merupakan menu pengisian Laporan Kinerja yang digunakan oleh Manajer untuk mencatat, memperbarui, dan menghapus data performa karyawan. Fitur ini berfungsi sebagai alat evaluasi dan pemantauan kinerja berdasarkan jam kerja, lembur, serta hasil survei kesejahteraan karyawan.
+   Pada bagian atas terdapat kolom Cari Username dan tombol Search yang digunakan untuk mencari data karyawan tertentu. Di bawahnya terdapat form input dengan beberapa kolom, yaitu Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Kolom-kolom ini diisi oleh manajer untuk mencatat hasil penilaian kinerja setiap karyawan.
+   
+   Di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Di bawah form, terdapat tabel laporan yang menampilkan data kinerja seluruh karyawan berdasarkan input yang telah dimasukkan, dengan kolom Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. 
+
+<img width="1276" height="707" alt="image" src="https://github.com/user-attachments/assets/d0f25c43-e8d1-47f1-a96b-5e8cdd681713" />
+
+Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> (GAMBAR NOTIFIKASI)
 
 **2. Aktivitas Kerja**
 
@@ -301,9 +310,7 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 **3. Profil**
 
-  Menu ini menampilkan informasi pribadi manajer yang sedang login ke dalam aplikasi. Data yang ditampilkan mencakup identitas dasar seperti nama, departemen, username, dan peran pengguna. Tujuan utama dari menu ini adalah agar manajer dapat melihat dan memastikan data pribadinya tercatat dengan benar di dalam sistem.
-
-  Selain hanya menampilkan data, menu ini juga menyediakan fitur update data. Jika manajer ingin memperbarui informasi tertentu, seperti nama, departemen, atau data akun lainnya, manajer dapat memilih data yang ingin diubah. Setelah dilakukan perubahan, sistem akan menyimpan pembaruan tersebut ke dalam basis data, lalu menampilkan profil yang sudah diperbarui.
+  Menu ini menampilkan 
 
 **4. Data User**
 
@@ -326,8 +333,9 @@ Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
 
 **5. Survei Kesejahteraan Karyawan**
 
-Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian, sementara tombol Log Out di kanan atas berfungsi mengakhiri sesi. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. Setelah selesai meninjau, pengguna dapat menekan tom
+Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian, sementara tombol Log Out di kanan atas berfungsi mengakhiri sesi. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. Setelah selesai meninjau, klik tombol Kembali untuk kembali ke menu sebelumnya.
 
+<img width="1270" height="715" alt="image" src="https://github.com/user-attachments/assets/95add2e0-fee6-4bae-8eb2-e5bc988c3345" />
 
 
 
