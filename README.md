@@ -213,6 +213,16 @@ Misalnya seperti Hibernate-core untuk menghubungkan objek Java dengan database (
 
 ---
 
+### ╰┈➤ File pom.xml
+
+**Pom.xml**
+
+File pom.xml (Project Object Model) digunakan oleh Maven untuk mengatur struktur proyek, dependensi, versi library, serta plugin yang dibutuhkan aplikasi. Di program EMPORIA, file ini berfungsi untuk mengelola pustaka agar bisa diunduh dan digunakan otomatis tanpa menambahkan file secara manual.
+
+> <img width="636" height="773" alt="image" src="https://github.com/user-attachments/assets/e0f32d06-5d66-449d-bc73-cc917b53e407" />
+
+---
+
 <h3 align="center">Nilai Tambah</h3>
 
 #### ✫彡 ORM
