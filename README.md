@@ -105,6 +105,12 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 1. Encapsulation
 
    > Encapsulation merupakan konsep dasar dalam pemrograman berorientasi objek yang bertujuan untuk melindungi data agar tidak dapat diakses atau diubah secara langsung dari luar kelas. Data atau variabel dibuat bersifat private, dan hanya dapat diakses melalui metode khusus seperti getter dan setter.
+   >
+   > Penerapan Encapsulation dalam program EMPORIA terdapat pada seluruh kelas model. Setiap atribut disembunyikan menggunakan modifier private dan diakses melalui metode getter serta setter agar keamanan data tetap terjaga dan logika program lebih terstruktur.
+   >
+   > Gambar di bawah ini merupakan salah satu contoh penerapan Encapsulation pada kelas User.java, yang menyimpan data pengguna seperti nama, username, dan password secara aman dengan menggunakan getter dan setter.
+   
+   > <img width="664" height="836" alt="image" src="https://github.com/user-attachments/assets/10553a6f-37e6-4033-aec1-2a86c74733af" />
 
    
 2. Inheritance
