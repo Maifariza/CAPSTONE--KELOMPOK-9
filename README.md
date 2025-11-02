@@ -312,18 +312,16 @@ Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
 
 **5. Survei Kesejahteraan Karyawan**
 
-Menu Survei Kesejahteraan Karyawan berfungsi untuk membantu manajer dalam memantau kondisi psikologis dan tingkat kepuasan kerja karyawan melalui hasil survei yang telah diisi oleh masing-masing karyawan. Melalui fitur ini, manajer dapat menilai sejauh mana keseimbangan antara beban kerja dan kesejahteraan karyawan terjaga.
+Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian, sementara tombol Log Out di kanan atas berfungsi mengakhiri sesi. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. Setelah selesai meninjau, pengguna dapat menekan tom
 
-Ketika manajer memilih menu ini, sistem akan menampilkan halaman pencarian data survei. Manajer dapat memasukkan nama karyawan yang ingin dicari, kemudian sistem akan menelusuri basis data untuk menemukan hasil survei milik karyawan tersebut. Jika nama yang dimasukkan valid dan ditemukan di dalam basis data, sistem akan menampilkan rincian hasil survei, seperti tingkat stres dan kepuasan kerja karyawan.
 
-Selain itu, tersedia opsi untuk melakukan pencarian ulang apabila manajer ingin melihat survei dari karyawan lain. Jika proses pencarian telah selesai, manajer dapat memilih tombol Kembali untuk keluar dari menu dan kembali ke halaman utama Menu Manajer.
 
 
 **6. Feedback Karyawan**
 
-Di menu ini, manajer dapat melihat feedback yang diberikan oleh karyawan terkait kondisi kerja, beban tugas, maupun lingkungan perusahaan. Fitur ini berperan penting sebagai sarana komunikasi dua arah antara karyawan dan manajemen, sehingga perusahaan dapat memahami kendala, saran, atau aspirasi yang disampaikan secara langsung oleh karyawan.
+Halaman ini digunakan untuk menampilkan masukan atau tanggapan dari karyawan yang dikirim melalui sistem. Tabel utama pada halaman ini berisi dua kolom, yaitu Tanggal dan Feedback, yang memudahkan manajer dalam meninjau setiap feedback berdasarkan waktu pengirimannya. Tampilan sederhana ini membantu proses evaluasi dan pemantauan kepuasan kerja karyawan secara terfokus. Tombol Log Out di bagian kanan atas berfungsi untuk keluar dari sesi, sedangkan tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama.
 
-Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback yang telah dikirimkan oleh karyawan dan tersimpan di dalam basis data. Melalui feedback yang diberikan, manajer dapat mengidentifikasi permasalahan secara lebih dini serta mengambil langkah yang tepat untuk menciptakan suasana kerja yang lebih baik dan kondusif bagi seluruh karyawan.
+
 
 
 ---
@@ -331,40 +329,68 @@ Saat manajer memilih menu ini, sistem akan menampilkan seluruh daftar feedback y
 
 ### ☆ Menu Karyawan
 
-Menu Karyawan merupakan halaman utama yang ditampilkan setelah pengguna dengan role Karyawan berhasil melakukan login. 
+Halaman ini merupakan menu utama bagi pengguna dengan peran Karyawan, yang berfungsi sebagai pusat navigasi untuk mengakses fitur-fitur terkait aktivitas kerja dan komunikasi dalam sistem. Setelah berhasil login, pengguna dengan role Karyawan akan diarahkan ke halaman ini sebagai beranda awal sistem.
 
-Adapun fitur-fitur utama pada menu ini meliputi:
+Area utama di tengah menampilkan beberapa tombol yang masing-masing mewakili fungsi karyawan, yaitu Lihat Laporan Kinerja untuk melihat hasil penilaian performa pribadi, Aktivitas Kerja untuk mencatat dan memantau jam kerja harian, Profil untuk melihat serta memperbarui data diri, Sampaikan Feedback untuk mengirim masukan atau saran kepada manajemen, serta Isi Survei Kesejahteraan untuk mengisi survei terkait kondisi dan kepuasan kerja.
+
+Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login.
+
+
+
+
+---
 
 **1. Aktivitas Kerja**
 
-Fitur Aktivitas Kerja digunakan untuk mencatat kehadiran dan jam kerja harian. Karyawan akan diminta untuk mengisi tanggal, jam masuk, dan jam pulang, lalu sistem menyimpan data tersebut ke dalam basis data. Fitur ini berfungsi sebagai dasar perhitungan total jam kerja dan lembur yang akan digunakan dalam laporan kinerja.
+Halaman ini merupakan menu Aktivitas Kerja yang digunakan oleh karyawan untuk mencatat jam kerja harian secara mandiri. Fitur ini berfungsi sebagai bagian dari pelaporan kehadiran dan produktivitas kerja, yang nantinya dapat digunakan oleh manajer dalam proses evaluasi kinerja.
+
+Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tanggal, Jam Masuk, dan Jam Pulang. Kolom Tanggal digunakan untuk mencatat hari kerja, sedangkan kolom Jam Masuk dan Jam Pulang berfungsi untuk mencatat waktu mulai dan selesai bekerja. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk menyimpan data aktivitas ke sistem.
+
+Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sedangkan tombol Log Out di kanan atas berfungsi untuk keluar dari sistem setelah proses pengisian aktivitas selesai dilakukan.
+
+
+
 
 **2. Survei Kesejahteraan**
 
-Pada menu Survei Kesejahteraan, karyawan dapat mengisi formulir yang berisi dua penilaian, yaitu tingkat stres dan kepuasan kerja.
-Karyawan juga harus mengisi tanggal survei sebagai penanda waktu pelaksanaan.
-Setelah seluruh kolom terisi, data disimpan secara otomatis ke dalam basis data dan akan digunakan oleh manajer untuk menilai kesejahteraan dan kondisi psikologis karyawan.
-Sistem kemudian menampilkan pesan bahwa data survei telah berhasil disimpan, dan karyawan dapat memilih untuk kembali ke menu utama atau mengisi survei kembali di lain waktu.
+Halaman ini merupakan menu pengisian Survei Kesejahteraan Karyawan yang berfungsi untuk mengukur tingkat stres dan kepuasan kerja karyawan sebagai bagian dari pemantauan kesejahteraan di lingkungan perusahaan. Fitur ini membantu manajemen dalam menilai kondisi psikologis serta tingkat kenyamanan karyawan di tempat kerja secara berkala.
+
+Pada halaman ini, karyawan diminta untuk mengisi Tanggal, Tingkat Stres, dan Kepuasan Kerja. Kolom Tanggal digunakan untuk mencatat waktu pengisian survei, sedangkan Tingkat Stres dan Kepuasan Kerja diisi dengan skor bernilai 1–5, di mana angka 1 menunjukkan tingkat terendah dan angka 5 menunjukkan tingkat tertinggi. Penilaian ini memberikan gambaran kuantitatif mengenai kondisi emosional dan kepuasan karyawan terhadap pekerjaannya.
+
+Setelah seluruh data diisi, karyawan dapat menekan tombol Simpan untuk mengirim hasil survei ke sistem. Tombol Kembali di kanan bawah berfungsi untuk kembali ke menu utama, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai.
+
+
+
 
 **3. Feedback**
 
-Fitur Feedback berfungsi sebagai sarana komunikasi antara karyawan dan manajemen. Karyawan dapat mengirimkan pendapat, saran, atau keluhan yang berkaitan dengan lingkungan kerja, beban tugas, atau sistem yang digunakan. Untuk mengirimkan feedback, karyawan perlu mengisi tanggal dan isi pesan. Data kemudian disimpan ke dalam basis data dan ditampilkan pesan konfirmasi bahwa feedback berhasil dikirim.
+Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
 
-Karyawan juga dapat memilih untuk menambah feedback baru atau kembali ke menu utama setelah selesai.
-Melalui fitur ini, perusahaan dapat memahami kebutuhan karyawan secara lebih terbuka dan responsif.
+Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
+
+Selain itu, tombol Kembali di bagian kanan bawah digunakan untuk kembali ke menu utama, dan tombol Log Out di pojok kanan atas berfungsi untuk keluar dari sistem setelah selesai memberikan masukan.
+
+
+
 
 **4. Profil**
 
-Menu Profil Karyawan menampilkan informasi pribadi yang tersimpan di dalam sistem, seperti nama, departemen, jabatan, dan username.
-Selain menampilkan data, karyawan juga memiliki opsi untuk memperbarui (update) profilnya.
-Jika karyawan memilih untuk memperbarui data, sistem akan meminta input nama baru, username baru, dan password baru jika diperlukan.
-Setelah data disimpan dan diverifikasi, sistem akan menampilkan versi profil yang telah diperbarui.
-Apabila tidak ada perubahan yang dilakukan, karyawan dapat langsung kembali ke halaman utama Menu Karyawan.
-Fitur ini membantu memastikan bahwa setiap data pengguna selalu akurat dan terkini.
+Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Jenis Kelamin, Department, Username, dan Password.
+
+Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan, namun hanya diperbolehkan melakukan pembaruan (update) pada beberapa bagian tertentu, yaitu Nama, Username, dan Password. Pembatasan ini bertujuan untuk menjaga konsistensi data penting seperti jenis kelamin dan department yang dikelola langsung oleh pihak manajer.
+
+Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem setelah selesai melakukan pembaruan profil.
+
+
+
 
 **5. Laporan Kinerja**
 
-Fitur Laporan Kinerja memungkinkan karyawan untuk melihat hasil evaluasi yang dilakukan oleh manajer.
-Selain itu, Karyawan dapat mencari laporan kinerjanya sendiri berdasarkan nama, kemudian sistem akan menampilkan data seperti rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi yang diberikan.
-Setelah laporan ditampilkan, karyawan dapat meninjau hasilnya dan kembali ke menu utama.
-Fitur ini mendukung transparansi antara manajer dan karyawan serta membantu karyawan memahami area yang perlu ditingkatkan.
+Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk melihat hasil evaluasi performa kerja pribadi. Fitur ini memungkinkan karyawan memantau data yang berkaitan dengan produktivitas dan hasil penilaian dari manajer tanpa dapat melakukan perubahan apa pun pada data yang ditampilkan.
+
+Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
+
+Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sedangkan tombol Log Out di kanan atas berfungsi untuk keluar dari sistem.
+
+
+
