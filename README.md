@@ -218,6 +218,10 @@ Di sisi lain, pustaka seperti JAXB, StAX, dan FastInfoset digunakan untuk menduk
 
 <h3 align="center">Nilai Tambah</h3>
 
+#### ✫彡 ORM
+
+#### ✫彡 DAO
+
 --- 
 
 <h3 align="center">Flowchart & Use Case</h3>
