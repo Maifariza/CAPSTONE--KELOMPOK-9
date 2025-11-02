@@ -236,13 +236,16 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
 
+<img width="802" height="462" alt="image" src="https://github.com/user-attachments/assets/356eca64-3ca4-4993-a618-c7972baad73c" />
+
 Terdapat 2 tombol pilihan utamanya, yaitu:
 
-1. **Login**, menuju ke halaman untuk masuk jika Manajer dan Karyawan sudah punya akun.
+1. **Login**, digunakan untuk mengakses sistem dengan memasukkan akun sesuai peran pengguna (Manajer atau Karyawan). S
 
-2. **Keluar**, menutup aplikasi.
+2. **Keluar**, berfungsi untuk menutup aplikasi. Namun, sebelum benar-benar keluar, sistem akan menampilkan notifikasi konfirmasi berupa pesan “Apakah Anda yakin ingin keluar?” guna memastikan tindakan pengguna agar tidak terjadi kesalahan saat menutup aplikasi secara tidak sengaja.
 
 
+(GAMBAR POP UP KELUAR)
 
 ---
 
@@ -253,10 +256,14 @@ Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini
 Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil sebagai (Role)". 
 
 - Manajer akan diarahkan ke Menu Manajer.
+  
+ > (GAMBAR NOTIFIKASI)
 
 - Karyawan akan diarahkan ke Menu Karyawan.
 
-
+ > (GAMBAR NOTIFIKASI)
+  
+  
 
 **Validasi Input**
 
@@ -336,9 +343,10 @@ Area utama di tengah menampilkan beberapa tombol yang masing-masing mewakili fun
 Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login.
 
 
+<img width="1269" height="716" alt="image" src="https://github.com/user-attachments/assets/6f054bd2-4d28-4e9b-b5e5-7ca8ed7be56d" />
 
 
----
+
 
 **1. Aktivitas Kerja**
 
@@ -349,6 +357,7 @@ Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tang
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sedangkan tombol Log Out di kanan atas berfungsi untuk keluar dari sistem setelah proses pengisian aktivitas selesai dilakukan.
 
 
+<img width="1275" height="709" alt="image" src="https://github.com/user-attachments/assets/ed0132be-e88b-48ef-9097-9f198ca2c92f" />
 
 
 **2. Survei Kesejahteraan**
@@ -359,6 +368,7 @@ Pada halaman ini, karyawan diminta untuk mengisi Tanggal, Tingkat Stres, dan Kep
 
 Setelah seluruh data diisi, karyawan dapat menekan tombol Simpan untuk mengirim hasil survei ke sistem. Tombol Kembali di kanan bawah berfungsi untuk kembali ke menu utama, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai.
 
+<img width="1273" height="709" alt="image" src="https://github.com/user-attachments/assets/95f4ae94-3991-4cc2-b120-8bdd8c0cd5bc" />
 
 
 
@@ -370,6 +380,7 @@ Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tangg
 
 Selain itu, tombol Kembali di bagian kanan bawah digunakan untuk kembali ke menu utama, dan tombol Log Out di pojok kanan atas berfungsi untuk keluar dari sistem setelah selesai memberikan masukan.
 
+<img width="1272" height="713" alt="image" src="https://github.com/user-attachments/assets/8efdb471-8a49-4e3b-97d3-f8b20c6a4b0e" />
 
 
 
@@ -381,6 +392,7 @@ Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan,
 
 Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem setelah selesai melakukan pembaruan profil.
 
+<img width="1270" height="707" alt="image" src="https://github.com/user-attachments/assets/eda1aee3-f999-43df-825e-6944f3c05e69" />
 
 
 
@@ -392,5 +404,6 @@ Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-
 
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sedangkan tombol Log Out di kanan atas berfungsi untuk keluar dari sistem.
 
+<img width="1077" height="596" alt="image" src="https://github.com/user-attachments/assets/a2a77ffc-dc49-45a9-986f-b147c9122cbe" />
 
 
