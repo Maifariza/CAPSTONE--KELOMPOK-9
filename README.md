@@ -116,13 +116,47 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 2. Inheritance
 
    
-   > Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child/anak) mewarisi atribut dan method dari class lain (parent/induk). Artinya, subclass dapat menggunakan kembali atribut dan method dari superclass, serta dapat menambahkan fitur baru atau mengubah perilaku yang sudah ada.
+   > Inheritance atau pewarisan merupakan salah satu pilar utama dalam pemrograman berorientasi objek yang memungkinkan sebuah kelas menurunkan atribut dan perilakunya kepada kelas lain. Dengan konsep ini, kelas turunan dapat menggunakan kembali properti dari kelas induk tanpa harus menulis ulang kode yang sama. Selain itu, kelas turunan juga bisa menambahkan atribut atau perilaku baru sesuai kebutuhannya.
    
-3. Abstraction
+   > Pada program EMPORIA, penerapan inheritance terlihat pada package model. Kelas User berperan sebagai kelas induk yang menyimpan atribut umum untuk seluruh pengguna, seperti idUser, nama, departemen, username, password, role, dan gaji. Kemudian, terdapat dua kelas turunan yaitu Karyawan dan Manajer.
+  
+   **Kelas Induk**
+   
+   > <img width="660" height="839" alt="image" src="https://github.com/user-attachments/assets/be253b47-4ed8-41e4-96f9-8cdd521829b4" />
+   
+   **Kelas Turunan Karyawan**
 
-   > Abstraction adalah konsep dalam object-oriented programming (OOP) yang bertujuan untuk menyederhanakan kompleksitas sistem dengan menyembunyikan detail-detail teknis yang tidak perlu.
+   > <img width="742" height="470" alt="image" src="https://github.com/user-attachments/assets/af85d4c1-1d5b-4df2-ae00-be987fe37202" />
    
-4. Polymorphism
+   **Kelas Turunan Manajer**
+
+   > <img width="621" height="416" alt="image" src="https://github.com/user-attachments/assets/ba016918-b432-4b37-b033-415c38cfd4a2" />
+
+
+
+   
+4. Abstraction
+
+   > Abstraction adalah konsep dalam object-oriented programming (OOP) yang bertujuan untuk menyederhanakan kompleksitas sistem dengan menyembunyikan detail-detail teknis yang tidak perlu. Di Emporia, abstraction saya terapkan di kelas User. Kelas ini menampung hal-hal yang sama pada semua pengguna, seperti id, nama, departemen, dan username, serta satu perilaku umum **tampilkanProfil()**. Nanti, Karyawan dan Manajer cukup mewarisi dari User lalu menambah atau menyesuaikan perilakunya. Cara ini membuat data dan logika yang bersifat umum tidak tersebar, tetapi terkumpul rapi di satu tempat.
+
+   **Kelas User**
+   
+   > <img width="685" height="845" alt="image" src="https://github.com/user-attachments/assets/85cd3cd8-ac24-49ff-ad39-00185ac8120c" />
+
+   **Kelas Karyawan**
+
+   > <img width="726" height="111" alt="image" src="https://github.com/user-attachments/assets/c6ec0ada-df87-4bc2-b3f3-7dfd58cd26e8" />
+
+   **Kelas Manajer**
+
+
+   > <img width="490" height="166" alt="image" src="https://github.com/user-attachments/assets/03a068ca-e67c-4b5e-8ffd-05442b7d4ead" />
+
+
+
+
+   
+6. Polymorphism
 
    > Polymorphism berasal dari bahasa Yunani, yaitu poly (banyak) dan morph (bentuk). Dalam OOP, polymorphism adalah kemampuan suatu method dengan nama yang sama untuk memiliki lebih dari satu perilaku atau kegunaan.
    
@@ -133,7 +167,7 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
    > b. **Overriding**, method di subclass menimpa method dari superclass dengan perilaku
 berbeda.
    
-5. Interface
+7. Interface
 
    > Interface adalah sebuah kontrak atau kerangka kerja dalam OOP yang hanya berisi deklarasi method (tanpa implementasi). Setiap class yang mengimplementasikan interface wajib mendefinisikan semua method yang ada di dalamnya. Berbeda dengan abstract class, interface tidak memiliki implementasi method, dan sebuah class dapat mengimplementasikan lebih dari satu interface sekaligus.
      
@@ -290,7 +324,8 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
-<img width="1274" height="709" alt="image" src="https://github.com/user-attachments/assets/190a4119-20a0-4c0a-b5b8-7433c9d7da92" />
+<img width="1277" height="713" alt="image" src="https://github.com/user-attachments/assets/1ff26309-9590-4a8c-a8d6-75a62f1bb884" />
+
 
 
 Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil sebagai (Role)". 
@@ -367,7 +402,10 @@ Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
   
 - Buat Akun Baru
 
-  Fitur ini digunakan ketika ada karyawan baru yang akan bergabung ke dalam sistem. Manajer dapat menambahkan data baru dengan mengisi nama, departemen, gaji, status kerja, dan peran (role). Setelah itu, manajer membuat username dan password untuk akun tersebut. Sistem akan memeriksa apakah username sudah digunakan; jika belum, data baru akan disimpan ke dalam basis data, dan akun karyawan siap digunakan untuk login pertama kali.
+  Fitur ini digunakan ketika ada karyawan baru yang akan bergabung ke dalam sistem. Manajer dapat menambahkan data baru dengan mengisi Username, Departemen, Gaji, Status Kerja, dan Password. Sistem akan memeriksa apakah username sudah digunakan; jika belum, data baru akan disimpan ke dalam basis data, dan akun karyawan siap digunakan untuk login pertama kali.
+
+<img width="1275" height="713" alt="image" src="https://github.com/user-attachments/assets/dedfcc06-8878-4ce1-be9e-bc2fe07bf664" />
+
 
 **5. Survei Kesejahteraan Karyawan**
 
@@ -439,7 +477,8 @@ Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk
 
 Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
 
-<img width="1272" height="713" alt="image" src="https://github.com/user-attachments/assets/8efdb471-8a49-4e3b-97d3-f8b20c6a4b0e" />
+<img width="1272" height="714" alt="image" src="https://github.com/user-attachments/assets/c57a4eee-2409-496a-a869-ca88fe9c3378" />
+
 
 Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
@@ -452,7 +491,8 @@ Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan sert
 
 Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan, namun hanya diperbolehkan melakukan pembaruan (update) pada beberapa bagian tertentu, yaitu Nama, Username, dan Password. Pembatasan ini bertujuan untuk menjaga konsistensi data penting seperti jenis kelamin dan department yang dikelola langsung oleh pihak manajer. Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. 
 
-<img width="1270" height="707" alt="image" src="https://github.com/user-attachments/assets/eda1aee3-f999-43df-825e-6944f3c05e69" />
+<img width="1270" height="715" alt="image" src="https://github.com/user-attachments/assets/03a1dc79-bdb2-414f-9d1b-8219c6e306c7" />
+
 
 Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
@@ -465,7 +505,8 @@ Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk me
 
 Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
 
-<img width="1077" height="596" alt="image" src="https://github.com/user-attachments/assets/a2a77ffc-dc49-45a9-986f-b147c9122cbe" />
+<img width="1075" height="600" alt="image" src="https://github.com/user-attachments/assets/85ad5388-bb1c-406f-ba20-a6640e7aac8c" />
+
 
 Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
