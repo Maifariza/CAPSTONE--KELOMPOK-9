@@ -220,8 +220,29 @@ Di sisi lain, pustaka seperti JAXB, StAX, dan FastInfoset digunakan untuk menduk
 
 #### ✫彡 ORM
 
+Object Relational Mapping (ORM) adalah teknik yang menghubungkan objek di dalam program Java dengan tabel pada basis data. Dengan cara ini, proses seperti penyimpanan, pembaruan, dan pengambilan data dapat dilakukan secara otomatis tanpa harus menulis perintah SQL secara manual. Pada program EMPORIA, penerapan ORM menggunakan Hibernate dengan dukungan anotasi JPA untuk mempermudah integrasi antara kelas model dan tabel database.
+
+Letak ORM:
+
+> <img width="220" height="73" alt="Screenshot 2025-11-02 111846" src="https://github.com/user-attachments/assets/9631be40-0cb8-4cd3-bf71-339bf9fcaafc" />
+
+
+> <img width="794" height="523" alt="image" src="https://github.com/user-attachments/assets/89e933d6-1b40-4135-88a6-d547358d8374" />
+
+
 #### ✫彡 DAO
 
+DAO adalah pola yang memisahkan logika akses data dari logika tampilan maupun bisnis. Intinya, semua urusan “ke database” (ambil, simpan, ubah, hapus) ditaruh di kelas-kelas khusus, sehingga kode UI tetap bersih dan mudah dirawat. Dengan cara ini, perubahan skema tabel atau query tidak merembet ke panel/tampilan.
+
+Letak DAO:
+
+> <img width="245" height="109" alt="image" src="https://github.com/user-attachments/assets/83d50f60-33e4-462c-a652-fc01d9a2ba95" />
+
+> <img width="731" height="220" alt="image" src="https://github.com/user-attachments/assets/0feabb28-bffc-4dda-981d-174779154812" />
+
+> <img width="626" height="431" alt="image" src="https://github.com/user-attachments/assets/81f98811-c2be-4970-be11-c5f50e65b5e2" />
+
+> Kedua potongan kode di atas menggambarkan penerapan pola DAO dalam program EMPORIA, di mana setiap operasi database ditempatkan pada kelas tersendiri agar terpisah dari logika antarmuka pengguna.
 --- 
 
 <h3 align="center">Flowchart & Use Case</h3>
