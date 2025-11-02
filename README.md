@@ -196,23 +196,19 @@ Di EMPORIA, Packages yang digunakan adalah:
 > <img width="157" height="59" alt="image" src="https://github.com/user-attachments/assets/20cb4075-e813-4a4f-9a55-a777d57767ff" />
 
 
+### ╰┈➤ Library yang Digunakan
 
-### Dependencies
+**Dependencies**
+
+Dalam pemrograman Java, library digunakan sebagai kumpulan pustaka eksternal yang berisi kode siap pakai untuk membantu pengembangan program. Biasanya pustaka ini disimpan dalam bentuk file .jar (Java Archive) yang berisi kumpulan class, fungsi, dan dependensi lain yang dibutuhkan oleh aplikasi.
+
+Penggunaan file JAR memudahkan pengembang dalam mengelola dan menjalankan proyek yang memiliki banyak komponen. Dengan begitu, programmer tidak perlu menulis ulang kode dasar karena bisa langsung memanfaatkan pustaka yang sudah ada.
 
 > <img width="326" height="394" alt="image" src="https://github.com/user-attachments/assets/5a6d3043-7772-4986-a6dc-7ed117bc7d0d" />
 
-> Dependencies berperan sebagai daftar kebutuhan perangkat lunak yang akan otomatis diunduh dan dikelola oleh Java Maven. Setiap pustaka di bagian ini memiliki fungsi yang berbeda-beda.
+Setiap pustaka ini, memiliki fungsi yang berbeda-beda.
 
-> Dalam program EMPORIA, beberapa library yang digunakan memiliki peran penting dalam menjalankan sistem. Hibernate berfungsi sebagai penghubung antara program dengan database melalui konsep ORM (Object Relational Mapping), sehingga data dapat diolah tanpa perlu menulis query SQL secara manual. MySQL Connector menjadi jembatan antara aplikasi dan basis data MySQL agar proses pengambilan dan penyimpanan data dapat berjalan lancar.
-
-Selanjutnya, SLF4J digunakan untuk menangani proses logging, membantu menampilkan informasi aktivitas sistem atau kesalahan selama program berjalan. Beberapa pustaka seperti Byte Buddy, Classmate, dan Jandex mendukung Hibernate dalam proses pembuatan proxy dan pengelolaan entity. Selain itu, JBoss Transaction API membantu mengatur proses transaksi data seperti penyimpanan, pembaruan, dan penghapusan agar tetap konsisten.
-
-Di sisi lain, pustaka seperti JAXB, StAX, dan FastInfoset digunakan untuk mendukung pemrosesan file konfigurasi berbasis XML. Terakhir, AbsoluteLayout merupakan pustaka bawaan NetBeans yang membantu menata tampilan antarmuka (UI) berbasis Swing agar lebih rapi dan responsif.
-
-### Hibernate.cfg.xml
-
-> <img width="206" height="54" alt="image" src="https://github.com/user-attachments/assets/8d279e45-bf2d-4d64-a86d-2e900c7147e4" />
-
+Misalnya seperti Hibernate-core untuk menghubungkan objek Java dengan database (ORM), MySQL-connector sebagai penghubung antara aplikasi dan server database MySQL, SLF4J dan JBoss-logging untuk mencatat aktivitas sistem, AbsoluteLayout membantu pengaturan tata letak komponen di GUI, dan juga javax.persistence dan jakarta API sebagai standar anotasi JPA dalam Hibernate.
 
 ---
 
