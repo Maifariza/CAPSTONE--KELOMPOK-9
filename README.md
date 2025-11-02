@@ -195,6 +195,7 @@ Di EMPORIA, Packages yang digunakan adalah:
 
 > <img width="157" height="59" alt="image" src="https://github.com/user-attachments/assets/20cb4075-e813-4a4f-9a55-a777d57767ff" />
 
+---
 
 ### ╰┈➤ Library yang Digunakan
 
