@@ -205,7 +205,7 @@ Dalam pemrograman Java, library digunakan sebagai kumpulan pustaka eksternal yan
 
 Penggunaan file JAR memudahkan pengembang dalam mengelola dan menjalankan proyek yang memiliki banyak komponen. Dengan begitu, programmer tidak perlu menulis ulang kode dasar karena bisa langsung memanfaatkan pustaka yang sudah ada.
 
-<img width="326" height="394" alt="image" src="https://github.com/user-attachments/assets/5a6d3043-7772-4986-a6dc-7ed117bc7d0d" />
+> <img width="326" height="394" alt="image" src="https://github.com/user-attachments/assets/5a6d3043-7772-4986-a6dc-7ed117bc7d0d" />
 
 Setiap pustaka ini, memiliki fungsi yang berbeda-beda.
 
