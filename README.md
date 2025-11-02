@@ -118,7 +118,7 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 
    
    > Inheritance atau pewarisan merupakan salah satu pilar utama dalam pemrograman berorientasi objek yang memungkinkan sebuah kelas menurunkan atribut dan perilakunya kepada kelas lain. Dengan konsep ini, kelas turunan dapat menggunakan kembali properti dari kelas induk tanpa harus menulis ulang kode yang sama. Selain itu, kelas turunan juga bisa menambahkan atribut atau perilaku baru sesuai kebutuhannya.
-   
+   >
    > Pada program EMPORIA, penerapan inheritance terlihat pada package model. Kelas User berperan sebagai kelas induk yang menyimpan atribut umum untuk seluruh pengguna, seperti idUser, nama, departemen, username, password, role, dan gaji. Kemudian, terdapat dua kelas turunan yaitu Karyawan dan Manajer.
   
    **Kelas Induk**
@@ -160,7 +160,7 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 6. Polymorphism
 
    > Polymorphism berasal dari bahasa Yunani, yaitu poly (banyak) dan morph (bentuk). Dalam OOP, polymorphism adalah kemampuan suatu method dengan nama yang sama untuk memiliki lebih dari satu perilaku atau kegunaan.
-   
+   >
    > Polymorphism dibagi menjadi dua bentuk:
    
    > a. **Overloading**, method dengan nama sama tapi berbeda parameter/tipe data.
@@ -187,46 +187,46 @@ Di EMPORIA, Packages yang digunakan adalah:
 ### com.mycompany.capstone.Gui
 
 > <img width="259" height="309" alt="image" src="https://github.com/user-attachments/assets/1e24a925-decc-4e46-96c8-d7fccbe4cb09" />
-
+>
 > Packages ini berisi seluruh tampilan aplikasi berbasis Swing. Di sini terdapat frame dan panel seperti halaman utama, login, menu manajer, dan menu karyawan. Fokusnya hanya pada tampilan program, seperti menata elemen, menyajikan informasi, dan merekam tindakan pengguna. Jika terjadi interaksi, panel akan meneruskan permintaan ke lapisan di bawahnya, bukan memproses database sendiri, agar logika bisnis tetap rapi dan terpisah dari antarmuka.
 
 ### com.mycompany.capstone.capstone 
 
 > <img width="264" height="44" alt="image" src="https://github.com/user-attachments/assets/0ca588c7-0973-4d19-8568-085e3ae0a096" />
-
+>
 > Packages com.mycompany.capstone.capstone berfungsi sebagai titik awal atau entry point dari aplikasi EMPORIA. Di dalamnya terdapat kelas utama yang bertugas untuk menjalankan program yaitu MainApp.java. Packages ini berperan seperti “tombol start” bagi aplikasi. Semua proses awal dimulai dari sini sebelum pengguna berinteraksi lebih jauh dengan fitur-fitur yang ada di dalam sistem.
 
 ### com.mycompany.capstone.dao
 
 > <img width="238" height="116" alt="image" src="https://github.com/user-attachments/assets/ed25f69e-402c-4c2d-a1d3-7806edf192d5" />
-
+>
 > Paket ini berisi kelas Data Access Object (DAO) yang berfungsi untuk mengatur proses pengambilan dan penyimpanan data ke database melalui Hibernate. Setiap kelas DAO menangani satu jenis data, seperti UserDAO untuk akun, AktivitasDAO untuk aktivitas kerja, SurveiDAO untuk survei kesejahteraan, LaporanKinerjaDAO untuk laporan, dan FeedbackDAO untuk masukan dari karyawan.
 
 
 ### com.mycompany.capstone.db
 
 > <img width="224" height="43" alt="image" src="https://github.com/user-attachments/assets/5986307a-1490-4d6c-8cd8-c73837dc6869" />
-
+>
 > Berisi kelas yang menangani koneksi dasar ke database, yaitu DatabaseConnection.java. Kelas ini menggunakan pola Singleton agar koneksi database hanya dibuat satu kali selama aplikasi berjalan.
 
 
 ### com.mycompany.capstone.model
 
 > <img width="248" height="150" alt="image" src="https://github.com/user-attachments/assets/c8f11da5-d832-4548-a7a9-45749a7b14fe" />
-
+>
 > Packages ini menyimpan seluruh kelas model yang mewakili tabel di database. Masing-masing kelas berfungsi sebagai entitas data, seperti User, Karyawan, Manajer, AktivitasKerja, SurveiKesejahteraan, Feedback, dan LaporanKinerja. Selain sebagai representasi data, di sini juga diterapkan konsep OOP seperti Encapsulation, Inheritance, dan Polymorphism.
 
 ### com.mycompany.capstone.service
 
 > <img width="253" height="130" alt="image" src="https://github.com/user-attachments/assets/4d29ffbb-f647-4bec-85db-a6281745a6b3" />
-
+>
 > Berisi kelas service yang menjadi penghubung antara GUI dan DAO. Setiap kelas di sini bertugas menangani logika bisnis dan validasi data sebelum dikirim ke database. Contohnya, LoginService menangani proses login, KaryawanService mengatur data karyawan, dan LaporanKinerjaService mengelola laporan evaluasi.
 
 
 ### com.mycompany.capstone.util
 
 > <img width="237" height="45" alt="image" src="https://github.com/user-attachments/assets/45bf81f3-503c-428d-9f7c-5a7d122ed74e" />
-
+>
 > Berisi kelas pendukung sistem, yaitu HibernateUtil.java. Kelas ini berfungsi untuk mengatur dan menginisialisasi koneksi Hibernate, sehingga proses pengelolaan database dapat berjalan otomatis tanpa perlu koneksi manual.
 
 ---
