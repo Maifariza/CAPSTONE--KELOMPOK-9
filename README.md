@@ -243,15 +243,17 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 1. **Login**, digunakan untuk mengakses sistem dengan memasukkan akun sesuai peran pengguna (Manajer atau Karyawan). S
 
 2. **Keluar**, berfungsi untuk menutup aplikasi. Namun, sebelum benar-benar keluar, sistem akan menampilkan notifikasi konfirmasi berupa pesan “Apakah Anda yakin ingin keluar?” guna memastikan tindakan pengguna agar tidak terjadi kesalahan saat menutup aplikasi secara tidak sengaja.
-
-
-(GAMBAR POP UP KELUAR)
+  
+   > (GAMBAR POP UP KELUAR)
 
 ---
 
 ### ⋆˚𝜗𝜚˚⋆ Menu Login
 
 Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
+
+<img width="1274" height="709" alt="image" src="https://github.com/user-attachments/assets/190a4119-20a0-4c0a-b5b8-7433c9d7da92" />
+
 
 Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil sebagai (Role)". 
 
@@ -279,8 +281,13 @@ Halaman ini merupakan menu utama bagi pengguna dengan peran Manajer, yang berfun
 
 Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili fitur manajer, yaitu Laporan Kinerja untuk melihat hasil evaluasi performa karyawan, Aktivitas Kerja untuk memantau kegiatan atau tugas harian karyawan, Profil untuk melihat dan memperbarui data pribadi, Data User untuk mengelola informasi pengguna sistem, Lihat Feedback Karyawan untuk membaca masukan atau penilaian dari karyawan, Survei Kesejahteraan untuk memantau tingkat kesejahteraan karyawan melalui survei internal. 
 
-Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login.
 
+
+<img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/b6e74a48-e7af-4a75-8cb3-2db5ce4187c0" />
+
+Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan.
+
+> (GAMBAR NOTIFIKASI)
 
 ---
 
@@ -340,12 +347,14 @@ Halaman ini merupakan menu utama bagi pengguna dengan peran Karyawan, yang berfu
 
 Area utama di tengah menampilkan beberapa tombol yang masing-masing mewakili fungsi karyawan, yaitu Lihat Laporan Kinerja untuk melihat hasil penilaian performa pribadi, Aktivitas Kerja untuk mencatat dan memantau jam kerja harian, Profil untuk melihat serta memperbarui data diri, Sampaikan Feedback untuk mengirim masukan atau saran kepada manajemen, serta Isi Survei Kesejahteraan untuk mengisi survei terkait kondisi dan kepuasan kerja.
 
-Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login.
+
 
 
 <img width="1269" height="716" alt="image" src="https://github.com/user-attachments/assets/6f054bd2-4d28-4e9b-b5e5-7ca8ed7be56d" />
 
+Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan.
 
+> (GAMBAR NOTIFIKASI)
 
 
 **1. Aktivitas Kerja**
