@@ -111,26 +111,37 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
    >
    > Gambar di bawah ini merupakan salah satu contoh penerapan Encapsulation pada kelas User.java, yang menyimpan data pengguna seperti nama, username, dan password secara aman dengan menggunakan getter dan setter.
    
+   > <img width="90" height="23" alt="image" src="https://github.com/user-attachments/assets/e7cb357d-ce48-4d8f-8096-a88028d93b57" />
+
    > <img width="664" height="836" alt="image" src="https://github.com/user-attachments/assets/10553a6f-37e6-4033-aec1-2a86c74733af" />
 
    
-2. Inheritance
+1. Inheritance
 
    
    > Inheritance atau pewarisan merupakan salah satu pilar utama dalam pemrograman berorientasi objek yang memungkinkan sebuah kelas menurunkan atribut dan perilakunya kepada kelas lain. Dengan konsep ini, kelas turunan dapat menggunakan kembali properti dari kelas induk tanpa harus menulis ulang kode yang sama. Selain itu, kelas turunan juga bisa menambahkan atribut atau perilaku baru sesuai kebutuhannya.
    >
    > Pada program EMPORIA, penerapan inheritance terlihat pada package model. Kelas User berperan sebagai kelas induk yang menyimpan atribut umum untuk seluruh pengguna, seperti idUser, nama, departemen, username, password, role, dan gaji. Kemudian, terdapat dua kelas turunan yaitu Karyawan dan Manajer.
   
-   **Kelas Induk**
+   **Superclass User**
+   
+   > <img width="90" height="23" alt="image" src="https://github.com/user-attachments/assets/f6add224-d3fa-4f9c-82bd-37d325f30ca4" />
+
    
    > <img width="660" height="839" alt="image" src="https://github.com/user-attachments/assets/be253b47-4ed8-41e4-96f9-8cdd521829b4" />
    
-   **Kelas Turunan Karyawan**
+   **Subclass Karyawan**
 
+   > <img width="123" height="26" alt="image" src="https://github.com/user-attachments/assets/e9a7ebe4-3677-481b-b9c9-9d3c7c5fe811" />
+
+   
    > <img width="742" height="470" alt="image" src="https://github.com/user-attachments/assets/af85d4c1-1d5b-4df2-ae00-be987fe37202" />
    
-   **Kelas Turunan Manajer**
+   **Subclass Manajer**
 
+   > <img width="112" height="23" alt="image" src="https://github.com/user-attachments/assets/0efbc035-5c7d-4356-91f0-0202edd72378" />
+
+   
    > <img width="621" height="416" alt="image" src="https://github.com/user-attachments/assets/ba016918-b432-4b37-b033-415c38cfd4a2" />
 
 
@@ -142,16 +153,24 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 
    **Kelas User**
    
+   > <img width="90" height="23" alt="image" src="https://github.com/user-attachments/assets/f6add224-d3fa-4f9c-82bd-37d325f30ca4" />
+   
    > <img width="685" height="845" alt="image" src="https://github.com/user-attachments/assets/85cd3cd8-ac24-49ff-ad39-00185ac8120c" />
 
    **Kelas Karyawan**
 
-   > <img width="726" height="111" alt="image" src="https://github.com/user-attachments/assets/c6ec0ada-df87-4bc2-b3f3-7dfd58cd26e8" />
+   > <img width="123" height="26" alt="image" src="https://github.com/user-attachments/assets/e9a7ebe4-3677-481b-b9c9-9d3c7c5fe811" />
+   
+   > <img width="741" height="59" alt="Screenshot 2025-11-03 075228" src="https://github.com/user-attachments/assets/764f9d96-6f6c-499d-9a58-9d1752d30b8d" />
+
 
    **Kelas Manajer**
 
 
-   > <img width="490" height="166" alt="image" src="https://github.com/user-attachments/assets/03a068ca-e67c-4b5e-8ffd-05442b7d4ead" />
+   > <img width="112" height="23" alt="image" src="https://github.com/user-attachments/assets/0efbc035-5c7d-4356-91f0-0202edd72378" />
+   
+   > <img width="468" height="110" alt="image" src="https://github.com/user-attachments/assets/5bb191ae-421f-4479-bde7-19876cb54e54" />
+
 
 
 
@@ -164,11 +183,34 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
    > Polymorphism dibagi menjadi dua bentuk:
    
    > a. **Overloading**, method dengan nama sama tapi berbeda parameter/tipe data.
-   
+
+
+
    > b. **Overriding**, method di subclass menimpa method dari superclass dengan perilaku
 berbeda.
    
-7. Interface
+   > **Method di Superclass**
+   
+   > <img width="90" height="23" alt="image" src="https://github.com/user-attachments/assets/f6add224-d3fa-4f9c-82bd-37d325f30ca4" />
+  
+   > <img width="537" height="76" alt="image" src="https://github.com/user-attachments/assets/dd2f87f2-d356-4373-b83d-19a64ef36cb4" />
+
+  
+   > <img width="123" height="26" alt="image" src="https://github.com/user-attachments/assets/e9a7ebe4-3677-481b-b9c9-9d3c7c5fe811" />
+
+
+   > <img width="714" height="92" alt="image" src="https://github.com/user-attachments/assets/e54884e2-ba40-4ae9-bf1d-075591c994dc" />
+   
+   
+   > <img width="112" height="23" alt="image" src="https://github.com/user-attachments/assets/0efbc035-5c7d-4356-91f0-0202edd72378" />
+
+   
+   > <img width="464" height="135" alt="image" src="https://github.com/user-attachments/assets/a96166c3-bd6c-4c33-a5e8-e51ee6ad6f8a" />
+
+   > Gambar di atas menunjukkan overriding. Kelas turunan Karyawan dan Manajer menimpa method tampilkanProfil() yang berasal dari kelas User. Akibatnya, saat method yang sama dipanggil, setiap objek menampilkan perilaku yang berbeda sesuai kelasnya. Profil karyawan menampilkan status kerja, sedangkan profil manajer menampilkan wewenang. Ini adalah bentuk polymorphism lewat overriding.
+
+   
+6. Interface
 
    > Interface adalah sebuah kontrak atau kerangka kerja dalam OOP yang hanya berisi deklarasi method (tanpa implementasi). Setiap class yang mengimplementasikan interface wajib mendefinisikan semua method yang ada di dalamnya. Berbeda dengan abstract class, interface tidak memiliki implementasi method, dan sebuah class dapat mengimplementasikan lebih dari satu interface sekaligus.
      
