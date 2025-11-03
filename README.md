@@ -194,13 +194,14 @@ berbeda.
    > <img width="90" height="23" alt="image" src="https://github.com/user-attachments/assets/f6add224-d3fa-4f9c-82bd-37d325f30ca4" />
   
    > <img width="537" height="76" alt="image" src="https://github.com/user-attachments/assets/dd2f87f2-d356-4373-b83d-19a64ef36cb4" />
-
-  
+   
+   > **Overriding di Subclass Karyawan**
+   
    > <img width="123" height="26" alt="image" src="https://github.com/user-attachments/assets/e9a7ebe4-3677-481b-b9c9-9d3c7c5fe811" />
-
-
+   
    > <img width="714" height="92" alt="image" src="https://github.com/user-attachments/assets/e54884e2-ba40-4ae9-bf1d-075591c994dc" />
    
+   > **Overriding di Subclass Manajer**
    
    > <img width="112" height="23" alt="image" src="https://github.com/user-attachments/assets/0efbc035-5c7d-4356-91f0-0202edd72378" />
 
