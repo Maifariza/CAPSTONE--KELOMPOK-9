@@ -417,13 +417,34 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 <img width="1276" height="707" alt="image" src="https://github.com/user-attachments/assets/d0f25c43-e8d1-47f1-a96b-5e8cdd681713" />
 
+**Search**
+
+
+
+**Create**
+
+
+
+**Update**
+
+
+
+**Delete**
+
+
+
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
 > (GAMBAR NOTIFIKASI)
 
 **2. Aktivitas Kerja**
 
-   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. Data aktivitas ini berguna untuk menghitung total waktu kerja dan tingkat kehadiran
+   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
+
+   **Create**
+
+   sdkj
+   
 
 **3. Profil**
 
