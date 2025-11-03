@@ -429,9 +429,20 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 **Search**
 
+Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan username salah satu karyawan yaitu wahyu. Maka, tabel akan menampilkan ID, Nama, Rata-rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi milik wahyu.
+
+<img width="1278" height="742" alt="image" src="https://github.com/user-attachments/assets/21c65b76-bbd2-4c10-8b71-390dc46cad4b" />
+
 
 
 **Create**
+
+
+
+
+Jika manajer membuat laporan kinerja yang bukan di departemen dia
+
+> <img width="1261" height="731" alt="image" src="https://github.com/user-attachments/assets/acb52a33-6f73-47e3-bdf6-07af4b2217bc" />
 
 
 
@@ -487,11 +498,9 @@ Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data peng
   > <img width="1004" height="637" alt="image" src="https://github.com/user-attachments/assets/88329eca-e0c5-4f15-9b3c-644c37383473" />
 
   
-- Buat Akun Baru
+- Delete Data User
 
-  Fitur ini digunakan ketika ada karyawan baru yang akan bergabung ke dalam sistem. Manajer dapat menambahkan data baru dengan mengisi Username, Departemen, Gaji, Status Kerja, dan Password. Sistem akan memeriksa apakah username sudah digunakan; jika belum, data baru akan disimpan ke dalam basis data, dan akun karyawan siap digunakan untuk login pertama kali.
 
-<img width="1275" height="713" alt="image" src="https://github.com/user-attachments/assets/dedfcc06-8878-4ce1-be9e-bc2fe07bf664" />
 
 
 **5. Survei Kesejahteraan Karyawan**
@@ -547,11 +556,11 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 Halaman ini merupakan menu Aktivitas Kerja yang digunakan oleh karyawan untuk mencatat jam kerja harian secara mandiri. Fitur ini berfungsi sebagai bagian dari pelaporan kehadiran dan produktivitas kerja, yang nantinya dapat digunakan oleh manajer dalam proses evaluasi kinerja.
 
-Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tanggal, Jam Masuk, dan Jam Pulang. Kolom Tanggal digunakan untuk mencatat hari kerja, sedangkan kolom Jam Masuk dan Jam Pulang berfungsi untuk mencatat waktu mulai dan selesai bekerja. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk menyimpan data aktivitas ke sistem.
+Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tanggal, Jam Masuk, dan Jam Pulang. Kolom Tanggal digunakan untuk mencatat hari kerja dan sistem akan mengisi secara otomatis, sedangkan kolom Jam Masuk dan Jam Pulang berfungsi untuk mencatat waktu mulai dan selesai bekerja. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk menyimpan data aktivitas ke sistem.
 
 <img width="1278" height="748" alt="image" src="https://github.com/user-attachments/assets/1fd654da-2c1e-4ccf-997e-851b49be7067" />
 
-Disini saya akan mengisi aktivitas kerja, saya menginputkan jam masuk dan jam pulang. Setelah itu klik tombol Simpan, dan akan muncul notifikasi yang menandakan bahwa aktivitas kerja kita telah berhasil disimpan
+Disini saya akan mengisi aktivitas kerja, saya menginputkan jam masuk dan jam pulang. Setelah itu klik tombol Simpan, dan akan muncul notifikasi yang menandakan bahwa aktivitas kerja kita telah berhasil disimpan.
 
 <img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/4a673677-5be4-4c50-8e93-a35f1ddda496" />
 
@@ -564,11 +573,11 @@ Setelah selesai meninjau, klik tombol Kembali yang ada di kanan bawah untuk kemb
 
 Halaman ini merupakan menu pengisian Survei Kesejahteraan Karyawan yang berfungsi untuk mengukur tingkat stres dan kepuasan kerja karyawan sebagai bagian dari pemantauan kesejahteraan di lingkungan perusahaan. Fitur ini membantu manajemen dalam menilai kondisi psikologis serta tingkat kenyamanan karyawan di tempat kerja secara berkala.
 
-Pada halaman ini, karyawan diminta untuk mengisi Tanggal, Tingkat Stres, dan Kepuasan Kerja. Kolom Tanggal digunakan untuk mencatat waktu pengisian survei, sedangkan Tingkat Stres dan Kepuasan Kerja diisi dengan skor bernilai 1–5, di mana angka 1 menunjukkan tingkat terendah dan angka 5 menunjukkan tingkat tertinggi. Penilaian ini memberikan gambaran kuantitatif mengenai kondisi emosional dan kepuasan karyawan terhadap pekerjaannya. Setelah seluruh data diisi, karyawan dapat menekan tombol Simpan untuk mengirim hasil survei ke sistem. 
+Pada halaman ini, karyawan diminta untuk mengisi Tanggal, Tingkat Stres, dan Kepuasan Kerja. Kolom Tanggal digunakan untuk mencatat waktu pengisian survei dan sistem akan mengisi secara otomatis, sedangkan Tingkat Stres dan Kepuasan Kerja diisi dengan skor bernilai 1–5, di mana angka 1 menunjukkan tingkat terendah dan angka 5 menunjukkan tingkat tertinggi. Penilaian ini memberikan gambaran kuantitatif mengenai kondisi emosional dan kepuasan karyawan terhadap pekerjaannya. Setelah seluruh data diisi, karyawan dapat menekan tombol Simpan untuk mengirim hasil survei ke sistem. 
 
 <img width="1278" height="743" alt="image" src="https://github.com/user-attachments/assets/72a58475-80c0-4f0f-9162-8f624a573f01" />
 
-Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, akan muncul notifikasi bahwa survei yang dilakukan tadi telah tersimpan
+Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, akan muncul notifikasi bahwa survei yang dilakukan tadi telah tersimpan.
 
 <img width="1281" height="742" alt="image" src="https://github.com/user-attachments/assets/e2d73f94-3adc-4c44-9a32-240bde7f713b" />
 
@@ -582,7 +591,7 @@ Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementar
 
 Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
 
-Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
+Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal akan terisi secara otomatis sesuai hari pengisian kita dan berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
 
 <img width="1273" height="748" alt="image" src="https://github.com/user-attachments/assets/6b23395f-0d09-4ec1-a316-64835893e149" />
 
@@ -603,15 +612,15 @@ Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementar
 
 **4. Profil**
 
-Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Jenis Kelamin, Department, Username, dan Password.
+Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Status kerja, Departement, Gaji, Username, dan Password.
 
-Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan, namun hanya diperbolehkan melakukan pembaruan (update) pada beberapa bagian tertentu, yaitu Nama, Username, dan Password. Pembatasan ini bertujuan untuk menjaga konsistensi data penting seperti jenis kelamin dan department yang dikelola langsung oleh pihak manajer. Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. 
+Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan, namun hanya diperbolehkan melakukan pembaruan (update) pada beberapa bagian tertentu, yaitu Nama, Username, dan Password. Pembatasan ini bertujuan untuk menjaga konsistensi data penting seperti status kerja, departemen, dan gaji yang dikelola langsung oleh pihak manajer. Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. 
 
-Disini saya login dengan akun karyyawan milik Lukman Hakim. Setelah masuk ke menu ini, tampilan yg keluar adalah data diri milik Lukman
+Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu ini, tampilan yg keluar adalah data diri milik Lukman
 
 <img width="1278" height="746" alt="image" src="https://github.com/user-attachments/assets/79d9e238-c3ee-4995-a53a-e651dc46d613" />
 
-Selanjutnya, saya ingin memperbarui data dengan mengubah username menjadi hakim dan klik tombol update yang ada dibawah. Maka akan muncul notifikasi bahwa profil berhasil diperbarui
+Selanjutnya, saya ingin memperbarui data dengan mengubah username menjadi hakim dan klik tombol update yang ada dibawah. Maka akan muncul notifikasi bahwa profil berhasil diperbarui.
 
 <img width="1276" height="752" alt="image" src="https://github.com/user-attachments/assets/d82b2e6d-d43a-41e3-a648-cb6554a71616" />
 
