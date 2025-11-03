@@ -352,7 +352,8 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
 
-<img width="802" height="462" alt="image" src="https://github.com/user-attachments/assets/356eca64-3ca4-4993-a618-c7972baad73c" />
+<img width="856" height="506" alt="image" src="https://github.com/user-attachments/assets/9a5c5c68-ab5f-44e6-a57f-f5a462ff0bf8" />
+
 
 Terdapat 2 tombol pilihan utamanya, yaitu:
 
@@ -360,7 +361,8 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 2. **Keluar**, berfungsi untuk menutup aplikasi. Namun, sebelum benar-benar keluar, sistem akan menampilkan notifikasi konfirmasi berupa pesan “Apakah Anda yakin ingin keluar?” guna memastikan tindakan pengguna agar tidak terjadi kesalahan saat menutup aplikasi secara tidak sengaja.
   
-   > (GAMBAR POP UP KELUAR)
+   > <img width="262" height="118" alt="image" src="https://github.com/user-attachments/assets/6e3cd1d1-dda5-4496-9ab4-8d5205354205" />
+
 
 ---
 
@@ -368,7 +370,8 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
-<img width="1277" height="713" alt="image" src="https://github.com/user-attachments/assets/1ff26309-9590-4a8c-a8d6-75a62f1bb884" />
+<img width="1449" height="751" alt="image" src="https://github.com/user-attachments/assets/7ddb4444-55f7-437f-9114-c4d20ada62f3" />
+
 
 
 
@@ -376,7 +379,8 @@ Jika pengguna berhasil masuk, sistem akan menampilkan notifikasi "Login berhasil
 
 - Manajer akan diarahkan ke Menu Manajer.
   
- > (GAMBAR NOTIFIKASI)
+ > <img width="262" height="118" alt="image" src="https://github.com/user-attachments/assets/80b6eb48-df0d-44b4-87a0-4e09e49f47e0" />
+
 
 - Karyawan akan diarahkan ke Menu Karyawan.
 
@@ -404,7 +408,8 @@ Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili f
 
 Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> (GAMBAR NOTIFIKASI)
+> <img width="263" height="122" alt="image" src="https://github.com/user-attachments/assets/5100b21b-03a6-48ca-b335-89efd321094d" />
+
 
 ---
 
@@ -435,11 +440,15 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
 
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> (GAMBAR NOTIFIKASI)
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/15407d7d-4b20-4a76-be2e-8e9a33ce5a15" />
+
 
 **2. Aktivitas Kerja**
 
    Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
+
+   <img width="1278" height="747" alt="image" src="https://github.com/user-attachments/assets/5122998a-73de-413b-9b8b-12843fe0e6a6" />
+
 
    **Create**
 
@@ -476,22 +485,30 @@ Di dalam menu ini terdapat beberapa fungsi utama, yaitu:
 
 Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. 
 
-<img width="1270" height="715" alt="image" src="https://github.com/user-attachments/assets/95add2e0-fee6-4bae-8eb2-e5bc988c3345" />
+<img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/bb22588b-6a74-485e-8065-4bebac9c2435" />
+
+Selain itu terdapat fitur search untuk mencari survei kesejahteraan milik karyawan. Disini, manajer mencoba mencari user bernama Vito saputra, kemudian memasukkan tanggal agar lebih spesifik kemudian klik tombol search yang ada di sebelah inputan tanggal. Dan terlihat outputnya terdapat di dalam tabel, sudah ada survei kesejahteraan milik Vito Saputra
+
+<img width="1273" height="746" alt="image" src="https://github.com/user-attachments/assets/76bb31f2-b58c-45d5-804f-25611d56fc57" />
+
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> (GAMBAR NOTIFIKASI)
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
+
 
 **6. Feedback Karyawan**
 
 Halaman ini digunakan untuk menampilkan masukan atau tanggapan dari karyawan yang dikirim melalui sistem. Tabel utama pada halaman ini berisi dua kolom, yaitu Tanggal dan Feedback, yang memudahkan manajer dalam meninjau setiap feedback berdasarkan waktu pengirimannya. Tampilan sederhana ini membantu proses evaluasi dan pemantauan kepuasan kerja karyawan secara terfokus. 
 
-<img width="1274" height="712" alt="image" src="https://github.com/user-attachments/assets/da0e9098-30bf-4b0a-ae51-a9fdd9cd01f1" />
+<img width="1282" height="745" alt="image" src="https://github.com/user-attachments/assets/073e51e9-4b0e-4481-970b-ecafe78b0ff1" />
+
 
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Yakin ingin keluar?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> (GAMBAR NOTIFIKASI)
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
+
 
 ---
 
