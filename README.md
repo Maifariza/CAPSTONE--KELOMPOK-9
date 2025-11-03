@@ -96,6 +96,13 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 
    > Menu Laporan Kinerja memungkinkan karyawan melihat hasil evaluasi yang dibuat oleh manajer. Laporan berisi rata-rata jam kerja, total lembur, skor survei kesejahteraan, hasil evaluasi, dan rekomendasi dari manajer. Di menu ini karyawan hanya bisa melihat laporan kinerja nya, membantu karyawan memahami pencapaiannya serta area yang perlu ditingkatkan.
 
+---
+
+<h3 align="center">Database yang Digunakan</h3>
+
+> <img width="190" height="27" alt="image" src="https://github.com/user-attachments/assets/e3ea34a6-105d-450e-82b7-7e65d1339918" />
+
+> <img width="203" height="163" alt="image" src="https://github.com/user-attachments/assets/8c97cd73-aefa-42dd-b10d-dbcf8ad37f9e" />
 
 
 
