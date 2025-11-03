@@ -98,13 +98,15 @@ Menu Karyawan terdiri atas beberapa bagian menu utama, yaitu sebagai berikut:
 
 ---
 
-<h3 align="center">Database yang Digunakan</h3>
+### ╰┈➤ Database yang Digunakan
+
+Ini adalah basis data yang kami gunakan sebagai penyimpanan utama aplikasi EMPORIA.
+Seluruh data autentikasi pengguna, aktivitas kerja, survei kesejahteraan, laporan kinerja, dan feedback disimpan di sini, dikelola dengan MySQL dan diakses lewat Hibernate (ORM).
+
 
 > <img width="190" height="27" alt="image" src="https://github.com/user-attachments/assets/e3ea34a6-105d-450e-82b7-7e65d1339918" />
 
 > <img width="203" height="163" alt="image" src="https://github.com/user-attachments/assets/8c97cd73-aefa-42dd-b10d-dbcf8ad37f9e" />
-
-
 
 ---
 
@@ -291,9 +293,7 @@ Penggunaan file JAR memudahkan pengembang dalam mengelola dan menjalankan proyek
 
 > <img width="326" height="394" alt="image" src="https://github.com/user-attachments/assets/5a6d3043-7772-4986-a6dc-7ed117bc7d0d" />
 
-Setiap pustaka ini, memiliki fungsi yang berbeda-beda.
-
-Misalnya seperti Hibernate-core untuk menghubungkan objek Java dengan database (ORM), MySQL-connector sebagai penghubung antara aplikasi dan server database MySQL, SLF4J dan JBoss-logging untuk mencatat aktivitas sistem, AbsoluteLayout membantu pengaturan tata letak komponen di GUI, dan juga javax.persistence dan jakarta API sebagai standar anotasi JPA dalam Hibernate.
+Setiap pustaka ini, memiliki fungsi yang berbeda-beda. Misalnya seperti Hibernate-core untuk menghubungkan objek Java dengan database (ORM), MySQL-connector sebagai penghubung antara aplikasi dan server database MySQL, SLF4J dan JBoss-logging untuk mencatat aktivitas sistem, AbsoluteLayout membantu pengaturan tata letak komponen di GUI, dan juga javax.persistence dan jakarta API sebagai standar anotasi JPA dalam Hibernate.
 
 ---
 
@@ -333,7 +333,7 @@ Letak DAO:
 
 > <img width="626" height="431" alt="image" src="https://github.com/user-attachments/assets/81f98811-c2be-4970-be11-c5f50e65b5e2" />
 
-> Kedua potongan kode di atas menggambarkan penerapan pola DAO dalam program EMPORIA, di mana setiap operasi database ditempatkan pada kelas tersendiri agar terpisah dari logika antarmuka pengguna.
+> Kedua kode di atas menggambarkan penerapan pola DAO dalam program EMPORIA, di mana setiap operasi database ditempatkan pada kelas tersendiri agar terpisah dari logika antarmuka pengguna.
 --- 
 
 <h3 align="center">Flowchart & Use Case</h3>
