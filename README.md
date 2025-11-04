@@ -441,21 +441,38 @@ Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan userna
 
 **Create**
 
+Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemennya sama dengan dia. Pilih terlebih dahulu karyawan yang ingin di buat laporannya, kemudian klik tombool create. Tampilan akan muncul notifikasi bahwa data telah berhasil ditambahkan
+
+<img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/2bb94cbd-3942-4840-bf65-00626915b88e" />
 
 
 
 Jika manajer membuat laporan kinerja yang bukan di departemen dia
 
-> <img width="1261" height="731" alt="image" src="https://github.com/user-attachments/assets/acb52a33-6f73-47e3-bdf6-07af4b2217bc" />
+> <img width="1277" height="742" alt="image" src="https://github.com/user-attachments/assets/e9084929-93e3-478a-9487-f8557da42000" />
+
 
 
 
 **Update**
 
+Disini saya ingin memperbarui laporan milik Siti Nurhaliza di kolom evaluasi. Setelah selesai mengisi evaluasi, klik tombol Update yang ada di bawah lalu akan muncul notifikasi bahwa laporan sudah berhasil diperbarui.
+
+<img width="1272" height="742" alt="image" src="https://github.com/user-attachments/assets/87beeb50-ca0b-4efe-9414-eeb64dacdabf" />
 
 
 **Delete**
 
+
+Kemudian disini saya akan menghapus Laporan milik Andi Pratama. Klik dulu kolom tabel milik Andi, lalu klik tombol delete. Maka akan muncul notifikasi bahwa data telah berhasil dihapus.
+
+<img width="1275" height="745" alt="image" src="https://github.com/user-attachments/assets/1a9436a2-3fb6-4a68-9d50-f0410bb5f8a7" />
+
+**Refresh**
+
+Setelah melakukan Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya dan memperbarui semua datanya.
+
+<img width="1273" height="744" alt="image" src="https://github.com/user-attachments/assets/411f80ef-41a0-461c-b724-efe4b212c428" />
 
 
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
@@ -473,17 +490,31 @@ Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara t
 
    **Create**
 
+   Setiap manajer dan karyawan dapat menambahkan aktivitas kerja setiap memulai pekerjaannya. Pengguna diminta menginputkan Nama, Tanggal, Jam masuk, dan jam Pulang, setelah itu klik tombol create yang ada di bawah. Lalu, akan muncul notifikasi bahwa data telah berhasil ditambahkan.
+
    <img width="1275" height="740" alt="image" src="https://github.com/user-attachments/assets/8fcc9d59-267d-48b3-aab7-2230c4aab790" />
 
    **Update**
 
-   <img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/44665e18-bcf0-4d6a-868a-623e0e53cf59" />\
+   Selanjutnya, disini pengguna ingin memperbarui data Jam pulang miliknya karena kesalahan input. Yang awalnya 16.40 kini dia ubah menjadi 17.00.
+
+   <img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/44665e18-bcf0-4d6a-868a-623e0e53cf59" />
 
    **Delete**
 
-   <img width="1268" height="744" alt="image" src="https://github.com/user-attachments/assets/a2be4025-c420-4784-9267-279278373dfc" />
+   Kemudian, disini juga ingin menghapus aktivitas kerja milik karyawan yang bernama Indra Kusuma. Pilih terlebih dahulu data Indra yang ada di tabel, kemudia klik Delete. Setelah itu akan muncul kembali konfirmasi apakah ingin menghapus aktivitas tersebut.  
+   
+   <img width="1270" height="750" alt="image" src="https://github.com/user-attachments/assets/ed91e147-8140-4794-bd1c-54208312c26c" />
+
+Jika klik no maka proses penghapusan akan dibatalkan. Dan jika memilih yes, maka data telah berhasil dihapus.
+
+<img width="1229" height="739" alt="image" src="https://github.com/user-attachments/assets/555eecd8-12d6-429a-9a12-bdaa13771b7e" />
 
    
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
+
 
 **3. Profil**
 
@@ -520,10 +551,11 @@ Disini saya ingin mencari karyawan dengan username wahyu. Saya mengetikkan nama 
   
 **Update Data User**
 
-  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. Setelah selesai memasukkan data yang ingin diubah, klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi.
+  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. Setelah selesai memasukkan data yang ingin diubah, klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi agar tidak ada kesalahan salah input.
 
 > <img width="1007" height="629" alt="Screenshot 2025-11-04 103209" src="https://github.com/user-attachments/assets/4e644915-7ddb-4244-8069-8d0c573704ce" />
 
+Jika ingin melanjutkan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
 
 > <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/16388740-ca17-42d9-a73b-4041ccc8868c" />
 
@@ -543,6 +575,10 @@ Jika memilih no, maka proses penghapusan akan dibatalkan dan kembali ke tampilan
 Setelah melakukan Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya.
 
 <img width="1005" height="634" alt="image" src="https://github.com/user-attachments/assets/94c31c69-90b5-49c1-bcbb-1081444d4b52" />
+
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 
 **5. Survei Kesejahteraan Karyawan**
@@ -586,7 +622,8 @@ Halaman ini merupakan menu utama bagi pengguna dengan peran Karyawan, yang berfu
 Area utama di tengah menampilkan beberapa tombol yang masing-masing mewakili fungsi karyawan, yaitu Lihat Laporan Kinerja untuk melihat hasil penilaian performa pribadi, Aktivitas Kerja untuk mencatat dan memantau jam kerja harian, Profil untuk melihat serta memperbarui data diri, Sampaikan Feedback untuk mengirim masukan atau saran kepada manajemen, serta Isi Survei Kesejahteraan untuk mengisi survei terkait kondisi dan kepuasan kerja.
 
 
-<img width="1277" height="745" alt="image" src="https://github.com/user-attachments/assets/befd591a-ec07-4dc1-95b3-6b9f6e96a221" />
+<img width="1298" height="756" alt="image" src="https://github.com/user-attachments/assets/1b6258c1-e3f5-4f31-8841-df9d4b092cb0" />
+
 
 
 Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
@@ -602,15 +639,12 @@ Halaman ini merupakan menu Aktivitas Kerja yang digunakan oleh karyawan untuk me
 
 Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tanggal, Jam Masuk, dan Jam Pulang. Kolom Tanggal digunakan untuk mencatat hari kerja dan sistem akan mengisi secara otomatis, sedangkan kolom Jam Masuk dan Jam Pulang berfungsi untuk mencatat waktu mulai dan selesai bekerja. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk menyimpan data aktivitas ke sistem.
 
-<img width="1278" height="748" alt="image" src="https://github.com/user-attachments/assets/1fd654da-2c1e-4ccf-997e-851b49be7067" />
+<img width="1277" height="743" alt="image" src="https://github.com/user-attachments/assets/6a70cf67-13fa-40b3-bf0e-54d09bcfbed9" />
+
 
 Disini saya akan mengisi aktivitas kerja, saya menginputkan jam masuk dan jam pulang. Setelah itu klik tombol Simpan, dan akan muncul notifikasi yang menandakan bahwa aktivitas kerja kita telah berhasil disimpan.
 
 <img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/4a673677-5be4-4c50-8e93-a35f1ddda496" />
-
-Setelah selesai meninjau, klik tombol Kembali yang ada di kanan bawah untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
-
-> <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
 
 
 **2. Survei Kesejahteraan**
@@ -626,32 +660,24 @@ Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, akan muncul noti
 <img width="1281" height="742" alt="image" src="https://github.com/user-attachments/assets/e2d73f94-3adc-4c44-9a32-240bde7f713b" />
 
 
-Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
-
-> <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
-
-
 **3. Feedback**
 
 Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
 
 Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal akan terisi secara otomatis sesuai hari pengisian kita dan berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
 
-<img width="1273" height="748" alt="image" src="https://github.com/user-attachments/assets/6b23395f-0d09-4ec1-a316-64835893e149" />
+<img width="1385" height="835" alt="image" src="https://github.com/user-attachments/assets/bd569bbe-33c4-4743-b7be-ad72fb4a85ec" />
+
 
 Setelah mengisi feedback, akan muncul notifikasi yang menandakan bahwa inputan tadi telah tersimpan
 
-<img width="1277" height="748" alt="image" src="https://github.com/user-attachments/assets/3c95629d-f2bf-4362-b3d7-3e95648dc63e" />
+<img width="1292" height="783" alt="image" src="https://github.com/user-attachments/assets/8513cf2f-c8bc-4abf-a0c4-c671fd8c015a" />
+
 
 **Jika inputan kosong**
 
-> <img width="262" height="116" alt="image" src="https://github.com/user-attachments/assets/13374369-ce09-4a10-a2e6-0cc1114f68d5" />
+> <img width="1282" height="791" alt="image" src="https://github.com/user-attachments/assets/b8846b09-1790-4405-82fe-618ef68e38c7" />
 
-
-
-Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
-
-> <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
 
 
 **4. Profil**
@@ -662,16 +688,15 @@ Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan,
 
 Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu ini, tampilan yg keluar adalah data diri milik Lukman
 
-<img width="1278" height="746" alt="image" src="https://github.com/user-attachments/assets/79d9e238-c3ee-4995-a53a-e651dc46d613" />
+<img width="1275" height="782" alt="image" src="https://github.com/user-attachments/assets/ee907a9f-6b35-434b-a7d3-cc553d4d73e7" />
+
 
 Selanjutnya, saya ingin memperbarui data dengan mengubah username menjadi hakim dan klik tombol update yang ada dibawah. Maka akan muncul notifikasi bahwa profil berhasil diperbarui.
 
-<img width="1276" height="752" alt="image" src="https://github.com/user-attachments/assets/d82b2e6d-d43a-41e3-a648-cb6554a71616" />
+<img width="1278" height="788" alt="image" src="https://github.com/user-attachments/assets/ee13a0b4-032c-4021-87f7-4391645a30cb" />
 
 
-Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
 
 
 **5. Laporan Kinerja**
@@ -684,6 +709,3 @@ Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-
 
 
 
-Tombol Kembali di kanan bawah berfungsi untuk kembali ke Menu Karyawan, sementara tombol Log Out di kanan atas digunakan untuk keluar dari sistem setelah proses pengisian selesai. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
-
-> <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
