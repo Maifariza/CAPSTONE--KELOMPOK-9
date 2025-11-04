@@ -547,21 +547,22 @@ Menu ini digunakan untuk mengelola seluruh data pengguna yang terdaftar di siste
 
 Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data pengguna tertentu berdasarkan nama, Manajer dapat membuat dan memperbarui informasi pengguna, dan Manajer dapat menghapus informasi pengguna khususnya Karyawan.
 
-<img width="1005" height="639" alt="image" src="https://github.com/user-attachments/assets/6fd6d33a-82f1-4305-be9a-201486d47fc4" />
+<img width="1280" height="741" alt="image" src="https://github.com/user-attachments/assets/b572c719-0e90-4340-a86c-7a58afb1451f" />
+
 
 
 **Search Data User**
 
-Fitur ini dipakai untuk mencari data karyawan berdasarkan username. Ketikkan username pada kolom pencarian, lalu klik Search. Sistem akan menampilkan hasil pada tabel di bawahnya. 
+Fitur ini dipakai untuk mencari data karyawan berdasarkan username. Ketikkan username dan disini saya mengetikkan sinta pada kolom pencarian, lalu klik Search. Sistem akan menampilkan hasil pada tabel di bawahnya. 
 
-<img width="1001" height="633" alt="image" src="https://github.com/user-attachments/assets/bf19553c-97d9-4513-b800-233dd818a4ed" />
+<img width="1278" height="745" alt="image" src="https://github.com/user-attachments/assets/e79bf283-9615-491b-9ec6-80c3efaa4cd6" />
+
 
 Jika data tidak ditemukan, akan muncul pemberitahuan bahwa karyawan dengan username tersebut belum ada.
 
-<img width="1008" height="632" alt="image" src="https://github.com/user-attachments/assets/a43754cf-b351-41f5-85c7-af879286c5fd" />
+<img width="1277" height="745" alt="image" src="https://github.com/user-attachments/assets/c156c54a-5c6e-4a78-b12f-52a00ef46156" />
 
 
- 
 **Create Data User**
 
 Fitur ini digunakan oleh manajer untuk menambahkan akun karyawan baru ke dalam sistem. Isi terlebih dahulu kolom nama, departemen, gaji, status, role, username, dan password, lalu tekan tombol Create.
@@ -581,30 +582,49 @@ Setelah proses berhasil, pengguna dapat memeriksa kembali pada tabel data karyaw
   
 **Update Data User**
 
-  Fitur ini berfungsi untuk memperbarui informasi karyawan yang sudah ada. Manajer dapat mengubah data seperti nama, departemen, status kerja, jabatan, atau gaji. Untuk melakukan perubahan, pilih pengguna yang ingin diperbarui, isi data baru pada kolom yang tersedia, lalu klik Update. Setelah itu, sistem akan menampilkan konfirmasi agar pengguna dapat memeriksa kembali sebelum menyimpan perubahan. 
+  Fitur ini berfungsi untuk memperbarui informasi karyawan yang sudah ada. Manajer dapat mengubah data seperti nama, departemen, status kerja, jabatan, atau gaji. Untuk melakukan perubahan, pilih pengguna yang ingin diperbarui, dan disini saya memilih karyawan bernama Oni Rahma. Saya ingin memperbarui di kolom gaji, yang awalnya 6500000 kini menjadi 7000000. Setelah itu klik Update dan sistem akan menampilkan konfirmasi agar pengguna dapat memeriksa kembali sebelum menyimpan perubahan. 
 
-> <img width="1007" height="629" alt="Screenshot 2025-11-04 103209" src="https://github.com/user-attachments/assets/4e644915-7ddb-4244-8069-8d0c573704ce" />
+![WhatsApp Image 2025-11-04 at 13 31 15_584dff99](https://github.com/user-attachments/assets/fa7ace65-497b-4a3b-9537-7b2f6c0e1d3a)
 
 Klik no bila ingin melakukan pembatalan proses penghapusan. Dan jika ingin melanjutkan penghapusan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
 
-> <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/16388740-ca17-42d9-a73b-4041ccc8868c" />
+<img width="1278" height="743" alt="Screenshot 2025-11-04 133127" src="https://github.com/user-attachments/assets/f9e8d92c-a6fb-4212-b5c3-d338e9ed83db" />
+
+Setelah itu, kita cek kembali dan terlihat di kolom gaji sudah terupdate yang menandakan proses telah berhasil.
+
+<img width="1277" height="745" alt="Screenshot 2025-11-04 133150" src="https://github.com/user-attachments/assets/4dca14d0-d244-437a-8330-4984da2af943" />
+
 
 
 **Delete Data User**
 
-Fitur ini digunakan untuk menghapus data pengguna dari sistem. Pilih terlebih dahulu karyawan yang ingin dihapus, dan disini saya ingin menghapus data user milik Putra Aditya, lalu klik tombol Delete. Sistem akan menampilkan dialog konfirmasi untuk memastikan tindakan penghapusan. 
+Fitur ini digunakan untuk menghapus data pengguna dari sistem. Manajer hanya bisa menghapus data karyawan yang hanya berada satu departemen dengan dia. Pertama, pilih terlebih dahulu karyawan yang ingin dihapus, dan disini saya ingin menghapus data user milik Maya Pertiwi, lalu klik tombol Delete. Sistem akan menampilkan dialog konfirmasi untuk memastikan tindakan penghapusan. 
 
-<img width="1000" height="632" alt="image" src="https://github.com/user-attachments/assets/8495fbb1-5d4e-47b6-ab49-879bab8af2f1" />
+<img width="1276" height="742" alt="Screenshot 2025-11-04 133252" src="https://github.com/user-attachments/assets/05fca000-6a0b-4741-857b-2206de64d03b" />
+
 
 Jika pengguna memilih Yes, maka data akan dihapus dan sistem akan menampilkan notifikasi bahwa data telah berhasil dihapus. Jika memilih No, proses penghapusan dibatalkan dan tampilan kembali ke halaman sebelumnya.
 
-<img width="1003" height="637" alt="image" src="https://github.com/user-attachments/assets/f26b871a-24fa-4929-8437-514d083db0ec" />
+<img width="1277" height="743" alt="Screenshot 2025-11-04 133314" src="https://github.com/user-attachments/assets/3a87a7de-3f8b-45a6-9e4b-77e67727f336" />
+
+Setelah itu, saya mencoba untuk cek kembali dengan mencari username maya. Dan terlihat bahwa sudah tidak ada data user Maya Pertiwi.
+
+<img width="1280" height="744" alt="Screenshot 2025-11-04 133335" src="https://github.com/user-attachments/assets/c95c20d7-89a8-4e53-9841-ad7faf802fc3" />
+
+
+
+Dan jika manajer ingin mencoba mengahspus karyawan yang tidak berada di satu departemen dengan dia, maka sistem menolak dan menampilkan peringatan seperti pada gambar dibawah ini.
+
+> <img width="1279" height="739" alt="Screenshot 2025-11-04 133226" src="https://github.com/user-attachments/assets/1a8abdc4-d4ed-4f70-997e-f2daa857e642" />
+
+
 
 **Refresh**
 
 Setelah melakukan Search, Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya.
 
-<img width="1005" height="634" alt="image" src="https://github.com/user-attachments/assets/94c31c69-90b5-49c1-bcbb-1081444d4b52" />
+<img width="1277" height="748" alt="Screenshot 2025-11-04 133401" src="https://github.com/user-attachments/assets/7060bf32-c7f5-45be-ac5d-4f6abc3d8647" />
+
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
