@@ -370,7 +370,8 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
-<img width="1449" height="751" alt="image" src="https://github.com/user-attachments/assets/7ddb4444-55f7-437f-9114-c4d20ada62f3" />
+<img width="746" height="508" alt="image" src="https://github.com/user-attachments/assets/b69a754b-73c0-477d-84bd-e8df1d1f0647" />
+
 
 
 
@@ -407,12 +408,13 @@ Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili f
 
 
 
-<img width="1259" height="795" alt="image" src="https://github.com/user-attachments/assets/0264fcf1-0acf-4a3f-87e7-9d76cded18bd" />
+<img width="1318" height="764" alt="image" src="https://github.com/user-attachments/assets/8b6e49ba-8078-48fa-a327-0713a18210db" />
+
 
 
 Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
-> <img width="263" height="122" alt="image" src="https://github.com/user-attachments/assets/5100b21b-03a6-48ca-b335-89efd321094d" />
+> <img width="259" height="117" alt="image" src="https://github.com/user-attachments/assets/9e1f6883-81f8-47bd-9244-c40752d9d57c" />
 
 
 ---
@@ -424,14 +426,16 @@ Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari s
    
    Di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Di bawah form, terdapat tabel laporan yang menampilkan data kinerja seluruh karyawan berdasarkan input yang telah dimasukkan, dengan kolom Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. 
 
-<img width="1277" height="746" alt="image" src="https://github.com/user-attachments/assets/e05750d9-7ff5-4ffa-8a89-5e83a83290d5" />
+<img width="1278" height="747" alt="image" src="https://github.com/user-attachments/assets/5afea212-aa43-4205-8b35-c8c31774f2eb" />
+
 
 
 **Search**
 
 Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan username salah satu karyawan yaitu wahyu. Maka, tabel akan menampilkan ID, Nama, Rata-rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi milik wahyu.
 
-<img width="1278" height="742" alt="image" src="https://github.com/user-attachments/assets/21c65b76-bbd2-4c10-8b71-390dc46cad4b" />
+<img width="1275" height="746" alt="image" src="https://github.com/user-attachments/assets/c5528039-ef5e-4840-853a-aad28b034f7e" />
+
 
 
 
@@ -463,20 +467,36 @@ Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara t
 
    Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
 
-   <img width="1278" height="747" alt="image" src="https://github.com/user-attachments/assets/5122998a-73de-413b-9b8b-12843fe0e6a6" />
+   <img width="1275" height="744" alt="image" src="https://github.com/user-attachments/assets/edfe7a14-3eec-4058-a7d6-c3344c95592c" />
+
 
 
    **Create**
 
    <img width="1275" height="740" alt="image" src="https://github.com/user-attachments/assets/8fcc9d59-267d-48b3-aab7-2230c4aab790" />
 
+   **Update**
+
+   <img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/44665e18-bcf0-4d6a-868a-623e0e53cf59" />\
+
+   **Delete**
+
+   <img width="1268" height="744" alt="image" src="https://github.com/user-attachments/assets/a2be4025-c420-4784-9267-279278373dfc" />
+
    
 
 **3. Profil**
 
-  Menu ini menampilkan 
+  Menu ini menampilkan seluruh informasi Manajer. Didalamnya terdapat data Nama, Departemen, Gaji, dan juga Role. 
 
-  <img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/ecedb9ba-24d6-497f-845f-0161869d0ac0" />
+  <img width="1280" height="789" alt="image" src="https://github.com/user-attachments/assets/3d198b0a-9371-4895-8401-4df51b7b56d3" />
+
+**Update Profil**
+
+Kita juga bisa memperbarui data profil kita. Disini, manajer yang bernama Citra Lestari ingin mengubah bagian departemen yang semulanya Finance, kini diganti menjadi IT. Setelah kita ubah, klik tombol perbarui yang ada di bawah sebelah kiri. Maka, akan muncul notifikasi bahwa data telah berhasil diubah.
+
+<img width="1278" height="789" alt="image" src="https://github.com/user-attachments/assets/d5a081a9-081f-4b6f-bd5c-dc2409f266c3" />
+
 
 
 **4. Data User**
@@ -487,31 +507,55 @@ Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data peng
 
 <img width="1005" height="639" alt="image" src="https://github.com/user-attachments/assets/6fd6d33a-82f1-4305-be9a-201486d47fc4" />
 
-  
-- Create Data User
+
+**Search Data User**
+
+Disini saya ingin mencari karyawan dengan username wahyu. Saya mengetikkan nama di kolom pencarian lalu klik tombol search. Kemudian tabel akan menampilkan data dari wahyu.
+
+<img width="1001" height="633" alt="image" src="https://github.com/user-attachments/assets/bf19553c-97d9-4513-b800-233dd818a4ed" />
+
+ 
+**Create Data User**
 
   
-- Update Data User
+**Update Data User**
 
   Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. Setelah selesai memasukkan data yang ingin diubah, klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi.
 
-  > <img width="1004" height="637" alt="image" src="https://github.com/user-attachments/assets/88329eca-e0c5-4f15-9b3c-644c37383473" />
-
-  
-- Delete Data User
+> <img width="1007" height="629" alt="Screenshot 2025-11-04 103209" src="https://github.com/user-attachments/assets/4e644915-7ddb-4244-8069-8d0c573704ce" />
 
 
+> <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/16388740-ca17-42d9-a73b-4041ccc8868c" />
+
+
+**Delete Data User**
+
+Disini saya ingin menghapus data user milik Putra Aditya. Saya klik dulu data milik putra, lalu tekan tombol Delete. Maka sistem akan menampilkan konfirmasi kembali seperti pada gambar di bawah ini.
+
+<img width="1000" height="632" alt="image" src="https://github.com/user-attachments/assets/8495fbb1-5d4e-47b6-ab49-879bab8af2f1" />
+
+Jika memilih no, maka proses penghapusan akan dibatalkan dan kembali ke tampilan awal. Dan jika pilih yes, maka akan muncul pemberitahuan bahwa user tersebut berhasil dihapus.
+
+<img width="1003" height="637" alt="image" src="https://github.com/user-attachments/assets/f26b871a-24fa-4929-8437-514d083db0ec" />
+
+**Refresh**
+
+Setelah melakukan Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya.
+
+<img width="1005" height="634" alt="image" src="https://github.com/user-attachments/assets/94c31c69-90b5-49c1-bcbb-1081444d4b52" />
 
 
 **5. Survei Kesejahteraan Karyawan**
 
 Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. 
 
-<img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/bb22588b-6a74-485e-8065-4bebac9c2435" />
+<img width="1291" height="743" alt="image" src="https://github.com/user-attachments/assets/d44db579-0e12-4e0f-866c-080c1a694cc7" />
+
 
 Selain itu terdapat fitur search untuk mencari survei kesejahteraan milik karyawan. Disini, manajer mencoba mencari user bernama Vito saputra, kemudian memasukkan tanggal agar lebih spesifik kemudian klik tombol search yang ada di sebelah inputan tanggal. Dan terlihat outputnya terdapat di dalam tabel, sudah ada survei kesejahteraan milik Vito Saputra
 
-<img width="1273" height="746" alt="image" src="https://github.com/user-attachments/assets/76bb31f2-b58c-45d5-804f-25611d56fc57" />
+<img width="1294" height="743" alt="image" src="https://github.com/user-attachments/assets/c2dc020c-8dd8-4ce6-8453-ea3a88dec408" />
+
 
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
