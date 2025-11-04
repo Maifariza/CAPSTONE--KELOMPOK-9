@@ -412,7 +412,7 @@ Area utama di tengah menampilkan enam tombol utama yang masing-masing mewakili f
 
 
 
-Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+Di bagian atas terdapat tombol berwarna merah “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Yakin ingin keluar?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
 > <img width="259" height="117" alt="image" src="https://github.com/user-attachments/assets/9e1f6883-81f8-47bd-9244-c40752d9d57c" />
 
@@ -441,13 +441,13 @@ Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan userna
 
 **Create**
 
-Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemennya sama dengan dia. Pilih terlebih dahulu karyawan yang ingin di buat laporannya, kemudian klik tombool create. Tampilan akan muncul notifikasi bahwa data telah berhasil ditambahkan
+Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemennya sama dengan dia. Pilih terlebih dahulu karyawan yang ingin di buat laporannya. Lalu isi input data barunya seperti nama, rata rata jam kerja, total lembur kerja, skor survei, evaluasi dan rekomendasi, kemudian klik tombool create. Tampilan akan muncul notifikasi bahwa data telah berhasil ditambahkan
 
 <img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/2bb94cbd-3942-4840-bf65-00626915b88e" />
 
 
 
-Jika manajer membuat laporan kinerja yang bukan di departemen dia
+Jika manajer membuat laporan kinerja yang lain berada di departemen dia, maka akan muncul notifikasi seperti pada gambar dibawah.
 
 > <img width="1277" height="742" alt="image" src="https://github.com/user-attachments/assets/e9084929-93e3-478a-9487-f8557da42000" />
 
@@ -456,7 +456,7 @@ Jika manajer membuat laporan kinerja yang bukan di departemen dia
 
 **Update**
 
-Disini saya ingin memperbarui laporan milik Siti Nurhaliza di kolom evaluasi. Setelah selesai mengisi evaluasi, klik tombol Update yang ada di bawah lalu akan muncul notifikasi bahwa laporan sudah berhasil diperbarui.
+Disini saya ingin memperbarui laporan milik Siti Nurhaliza di kolom evaluasi yang berisi "Kerja yang kurang cepat". Setelah selesai mengisi evaluasi, klik tombol Update yang ada di bawah lalu akan muncul notifikasi bahwa laporan sudah berhasil diperbarui.
 
 <img width="1272" height="742" alt="image" src="https://github.com/user-attachments/assets/87beeb50-ca0b-4efe-9414-eeb64dacdabf" />
 
@@ -496,7 +496,7 @@ Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara t
 
    **Update**
 
-   Selanjutnya, disini pengguna ingin memperbarui data Jam pulang miliknya karena kesalahan input. Yang awalnya 16.40 kini dia ubah menjadi 17.00.
+   Selanjutnya, disini pengguna ingin memperbarui data Jam pulang miliknya karena kesalahan input. Yang awalnya 16.40 kini dia ubah menjadi 17.00. Klik tombol update dan data telah berhasil diubah.
 
    <img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/44665e18-bcf0-4d6a-868a-623e0e53cf59" />
 
@@ -518,7 +518,7 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 
 **3. Profil**
 
-  Menu ini menampilkan seluruh informasi Manajer. Didalamnya terdapat data Nama, Departemen, Gaji, dan juga Role. 
+  Menu ini menampilkan seluruh informasi data profil milik Manajer. Didalamnya terdapat informasi Nama, Departemen, Gaji, dan juga Role. 
 
   <img width="1280" height="789" alt="image" src="https://github.com/user-attachments/assets/3d198b0a-9371-4895-8401-4df51b7b56d3" />
 
@@ -528,13 +528,15 @@ Kita juga bisa memperbarui data profil kita. Disini, manajer yang bernama Citra 
 
 <img width="1278" height="789" alt="image" src="https://github.com/user-attachments/assets/d5a081a9-081f-4b6f-bd5c-dc2409f266c3" />
 
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 **4. Data User**
 
 Menu ini digunakan untuk mengelola seluruh data pengguna yang terdaftar di sistem, baik Manajer maupun Karyawan. Tujuannya adalah agar manajer dapat memastikan seluruh akun pengguna aktif, datanya akurat, dan siap digunakan dalam kegiatan operasional sistem.
 
-Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data pengguna tertentu berdasarkan nama, Manajer dapat memperbarui informasi pengguna, dan Manajer dapat menghapus informasi pengguna khususnya Karyawan.
+Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data pengguna tertentu berdasarkan nama, Manajer dapat membuat dan memperbarui informasi pengguna, dan Manajer dapat menghapus informasi pengguna khususnya Karyawan.
 
 <img width="1005" height="639" alt="image" src="https://github.com/user-attachments/assets/6fd6d33a-82f1-4305-be9a-201486d47fc4" />
 
@@ -551,18 +553,20 @@ Disini saya ingin mencari karyawan dengan username wahyu. Saya mengetikkan nama 
   
 **Update Data User**
 
-  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. Setelah selesai memasukkan data yang ingin diubah, klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi agar tidak ada kesalahan salah input.
+  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. 
+  
+  Klik terlebih dahulu pengguna yang ingin diperbarui, lalu masukkan data yang ingin diubah, dan klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi agar tidak ada kesalahan salah input.
 
 > <img width="1007" height="629" alt="Screenshot 2025-11-04 103209" src="https://github.com/user-attachments/assets/4e644915-7ddb-4244-8069-8d0c573704ce" />
 
-Jika ingin melanjutkan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
+Klik no bila ingin melakukan pembatalan proses penghapusan. Dan jika ingin melanjutkan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
 
 > <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/16388740-ca17-42d9-a73b-4041ccc8868c" />
 
 
 **Delete Data User**
 
-Disini saya ingin menghapus data user milik Putra Aditya. Saya klik dulu data milik putra, lalu tekan tombol Delete. Maka sistem akan menampilkan konfirmasi kembali seperti pada gambar di bawah ini.
+Disini saya ingin menghapus data user milik Putra Aditya. Saya klik terlebih dahulu data milik putra, lalu tekan tombol Delete. Maka sistem akan menampilkan konfirmasi kembali seperti pada gambar di bawah ini.
 
 <img width="1000" height="632" alt="image" src="https://github.com/user-attachments/assets/8495fbb1-5d4e-47b6-ab49-879bab8af2f1" />
 
@@ -572,7 +576,7 @@ Jika memilih no, maka proses penghapusan akan dibatalkan dan kembali ke tampilan
 
 **Refresh**
 
-Setelah melakukan Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya.
+Setelah melakukan Search, Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya.
 
 <img width="1005" height="634" alt="image" src="https://github.com/user-attachments/assets/94c31c69-90b5-49c1-bcbb-1081444d4b52" />
 
@@ -588,7 +592,7 @@ Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan
 <img width="1291" height="743" alt="image" src="https://github.com/user-attachments/assets/d44db579-0e12-4e0f-866c-080c1a694cc7" />
 
 
-Selain itu terdapat fitur search untuk mencari survei kesejahteraan milik karyawan. Disini, manajer mencoba mencari user bernama Vito saputra, kemudian memasukkan tanggal agar lebih spesifik kemudian klik tombol search yang ada di sebelah inputan tanggal. Dan terlihat outputnya terdapat di dalam tabel, sudah ada survei kesejahteraan milik Vito Saputra
+Selain itu terdapat fitur search untuk mencari survei kesejahteraan milik karyawan. Disini, manajer mencoba mencari user bernama Vito saputra, kemudian memasukkan tanggal agar lebih spesifik kemudian klik tombol search yang ada di sebelah inputan tanggal. Dan terlihat outputnya terdapat di dalam tabel, sudah ada survei kesejahteraan milik Vito Saputra.
 
 <img width="1294" height="743" alt="image" src="https://github.com/user-attachments/assets/c2dc020c-8dd8-4ce6-8453-ea3a88dec408" />
 
@@ -626,14 +630,25 @@ Area utama di tengah menampilkan beberapa tombol yang masing-masing mewakili fun
 
 
 
-Di bagian bawah terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+Di bagian kanan atas terdapat tombol “Log Out” yang berfungsi untuk keluar dari sistem dan mengakhiri sesi login. Saat tombol ditekan, sistem akan menampilkan notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika memilih Yes, barulah sesi ditutup dan pengguna keluar dari aplikasi. Dan jika memilih No, maka proses logout dibatalkan. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
 > <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
 
 
+**1. Lihat Laporan Kinerja**
+
+Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk melihat hasil evaluasi performa kerja pribadi. Fitur ini memungkinkan karyawan memantau data yang berkaitan dengan produktivitas dan hasil penilaian dari manajer tanpa dapat melakukan perubahan apa pun pada data yang ditampilkan.
+
+Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
+
+<img width="1085" height="634" alt="image" src="https://github.com/user-attachments/assets/a0a8a93d-ef8c-434c-8353-f654067904f0" />
 
 
-**1. Aktivitas Kerja**
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
+
+**2. Aktivitas Kerja**
 
 Halaman ini merupakan menu Aktivitas Kerja yang digunakan oleh karyawan untuk mencatat jam kerja harian secara mandiri. Fitur ini berfungsi sebagai bagian dari pelaporan kehadiran dan produktivitas kerja, yang nantinya dapat digunakan oleh manajer dalam proses evaluasi kinerja.
 
@@ -646,8 +661,29 @@ Disini saya akan mengisi aktivitas kerja, saya menginputkan jam masuk dan jam pu
 
 <img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/4a673677-5be4-4c50-8e93-a35f1ddda496" />
 
+**3. Sampaikan Feedback**
 
-**2. Survei Kesejahteraan**
+Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
+
+Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal akan terisi secara otomatis sesuai hari pengisian kita dan berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
+
+<img width="1385" height="835" alt="image" src="https://github.com/user-attachments/assets/bd569bbe-33c4-4743-b7be-ad72fb4a85ec" />
+
+
+Setelah mengisi feedback, akan muncul notifikasi yang menandakan bahwa inputan tadi telah berhasil disimpan.
+
+<img width="1292" height="783" alt="image" src="https://github.com/user-attachments/assets/8513cf2f-c8bc-4abf-a0c4-c671fd8c015a" />
+
+
+**Jika inputan kosong**
+
+Jika inputan di kolom feedback kosong, maka sistem akan memberi peringatan bahwa kolom ini tidak boleh kosong.
+
+> <img width="1282" height="791" alt="image" src="https://github.com/user-attachments/assets/b8846b09-1790-4405-82fe-618ef68e38c7" />
+
+
+
+**4. Isi Survei Kesejahteraan**
 
 Halaman ini merupakan menu pengisian Survei Kesejahteraan Karyawan yang berfungsi untuk mengukur tingkat stres dan kepuasan kerja karyawan sebagai bagian dari pemantauan kesejahteraan di lingkungan perusahaan. Fitur ini membantu manajemen dalam menilai kondisi psikologis serta tingkat kenyamanan karyawan di tempat kerja secara berkala.
 
@@ -660,33 +696,13 @@ Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, akan muncul noti
 <img width="1281" height="742" alt="image" src="https://github.com/user-attachments/assets/e2d73f94-3adc-4c44-9a32-240bde7f713b" />
 
 
-**3. Feedback**
+**5. Profil**
 
-Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
-
-Pada halaman ini, karyawan diminta untuk mengisi dua komponen utama, yaitu Tanggal dan Feedback. Kolom Tanggal akan terisi secara otomatis sesuai hari pengisian kita dan berfungsi untuk mencatat waktu pengiriman masukan, sedangkan kolom Feedback digunakan untuk menuliskan isi tanggapan atau saran secara bebas. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk mengirimkan feedback ke sistem.
-
-<img width="1385" height="835" alt="image" src="https://github.com/user-attachments/assets/bd569bbe-33c4-4743-b7be-ad72fb4a85ec" />
-
-
-Setelah mengisi feedback, akan muncul notifikasi yang menandakan bahwa inputan tadi telah tersimpan
-
-<img width="1292" height="783" alt="image" src="https://github.com/user-attachments/assets/8513cf2f-c8bc-4abf-a0c4-c671fd8c015a" />
-
-
-**Jika inputan kosong**
-
-> <img width="1282" height="791" alt="image" src="https://github.com/user-attachments/assets/b8846b09-1790-4405-82fe-618ef68e38c7" />
-
-
-
-**4. Profil**
-
-Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Status kerja, Departement, Gaji, Username, dan Password.
+Tombol profil terdapat di sebelah kanan ujung layar (sebelah tombol logout). Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Status kerja, Departement, Gaji, Username, dan Password.
 
 Pada halaman ini, karyawan dapat melihat seluruh data diri yang telah tersimpan, namun hanya diperbolehkan melakukan pembaruan (update) pada beberapa bagian tertentu, yaitu Nama, Username, dan Password. Pembatasan ini bertujuan untuk menjaga konsistensi data penting seperti status kerja, departemen, dan gaji yang dikelola langsung oleh pihak manajer. Setelah melakukan perubahan pada kolom yang diizinkan, karyawan dapat menekan tombol Update untuk menyimpan perubahan data. 
 
-Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu ini, tampilan yg keluar adalah data diri milik Lukman
+Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu ini, tampilan yg keluar adalah data diri milik Lukman Hakim.
 
 <img width="1275" height="782" alt="image" src="https://github.com/user-attachments/assets/ee907a9f-6b35-434b-a7d3-cc553d4d73e7" />
 
@@ -694,18 +710,3 @@ Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu
 Selanjutnya, saya ingin memperbarui data dengan mengubah username menjadi hakim dan klik tombol update yang ada dibawah. Maka akan muncul notifikasi bahwa profil berhasil diperbarui.
 
 <img width="1278" height="788" alt="image" src="https://github.com/user-attachments/assets/ee13a0b4-032c-4021-87f7-4391645a30cb" />
-
-
-
-
-
-**5. Laporan Kinerja**
-
-Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk melihat hasil evaluasi performa kerja pribadi. Fitur ini memungkinkan karyawan memantau data yang berkaitan dengan produktivitas dan hasil penilaian dari manajer tanpa dapat melakukan perubahan apa pun pada data yang ditampilkan.
-
-Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
-
-<img width="1085" height="634" alt="image" src="https://github.com/user-attachments/assets/a0a8a93d-ef8c-434c-8353-f654067904f0" />
-
-
-
