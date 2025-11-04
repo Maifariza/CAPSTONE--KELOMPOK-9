@@ -7,7 +7,7 @@
 <h1 align="center"><img width="700" alt="Blue and Pink Gradient Business Partnership Logo (4)" src="https://github.com/user-attachments/assets/929944fa-6673-403c-a984-9b140d720784" /></h1>
 
 
-## Disusun Oleh
+## Disusun Oleh 
 
 | **Nama**                     | **NIM**     | **Kelas**            |
 |------------------------------|------------|-------------------|
