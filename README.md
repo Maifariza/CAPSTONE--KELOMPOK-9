@@ -419,7 +419,7 @@ Di bagian atas terdapat tombol berwarna merah “Log Out” yang berfungsi untuk
 
 ---
 
-**1. Laporan Kinerja**
+#### **1. Laporan Kinerja**
 
    Halaman ini merupakan menu pengisian Laporan Kinerja yang digunakan oleh Manajer untuk mencatat, memperbarui, dan menghapus data performa karyawan. Fitur ini berfungsi sebagai alat evaluasi dan pemantauan kinerja berdasarkan jam kerja, lembur, serta hasil survei kesejahteraan karyawan.
    Pada bagian atas terdapat kolom Cari Username dan tombol Search yang digunakan untuk mencari data karyawan tertentu. Di bawahnya terdapat form input dengan beberapa kolom, yaitu Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Kolom-kolom ini diisi oleh manajer untuk mencatat hasil penilaian kinerja setiap karyawan.
@@ -480,7 +480,7 @@ Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara t
 > <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/15407d7d-4b20-4a76-be2e-8e9a33ce5a15" />
 
 
-**2. Aktivitas Kerja**
+#### **2. Aktivitas Kerja**
 
    Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat mencari data aktivitas kerja karyawan, menambah aktivitas baru, menghapus, dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
 
@@ -526,7 +526,7 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 > <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 
-**3. Profil**
+#### **3. Profil**
 
   Menu ini menampilkan seluruh informasi data profil milik Manajer. Didalamnya terdapat informasi Nama, Departemen, Gaji, dan juga Role. 
 
@@ -541,7 +541,7 @@ Kita juga bisa memperbarui data profil kita. Disini, manajer yang bernama Citra 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. 
 
 
-**4. Data User**
+#### **4. Data User**
 
 Menu ini digunakan untuk mengelola seluruh data pengguna yang terdaftar di sistem, baik Manajer maupun Karyawan. Tujuannya adalah agar manajer dapat memastikan seluruh akun pengguna aktif, datanya akurat, dan siap digunakan dalam kegiatan operasional sistem.
 
@@ -631,7 +631,7 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 > <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 
-**5. Survei Kesejahteraan Karyawan**
+#### **5. Survei Kesejahteraan Karyawan**
 
 Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. 
 
@@ -651,7 +651,7 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 > <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 
-**6. Feedback Karyawan**
+#### **6. Feedback Karyawan**
 
 Halaman ini digunakan untuk menampilkan masukan atau tanggapan dari karyawan yang dikirim melalui sistem. Tabel utama pada halaman ini berisi dua kolom, yaitu Tanggal dan Feedback, yang memudahkan manajer dalam meninjau setiap feedback berdasarkan waktu pengirimannya. Tampilan sederhana ini membantu proses evaluasi dan pemantauan kepuasan kerja karyawan secara terfokus. 
 
@@ -682,33 +682,39 @@ Di bagian kanan atas terdapat tombol “Log Out” yang berfungsi untuk keluar d
 > <img width="264" height="117" alt="image" src="https://github.com/user-attachments/assets/7ac186f2-0c7c-483b-980c-a36fd6f1f46d" />
 
 
-**1. Lihat Laporan Kinerja**
+#### **1. Lihat Laporan Kinerja**
 
 Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk melihat hasil evaluasi performa kerja pribadi. Fitur ini memungkinkan karyawan memantau data yang berkaitan dengan produktivitas dan hasil penilaian dari manajer tanpa dapat melakukan perubahan apa pun pada data yang ditampilkan.
 
 Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
 
-<img width="1085" height="634" alt="image" src="https://github.com/user-attachments/assets/a0a8a93d-ef8c-434c-8353-f654067904f0" />
+<img width="1270" height="743" alt="image" src="https://github.com/user-attachments/assets/fbb8f4c3-5445-49e0-9774-79bf75d441e4" />
 
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
 > <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
 
-**2. Aktivitas Kerja**
+#### **2. Aktivitas Kerja**
 
 Halaman ini merupakan menu Aktivitas Kerja yang digunakan oleh karyawan untuk mencatat jam kerja harian secara mandiri. Fitur ini berfungsi sebagai bagian dari pelaporan kehadiran dan produktivitas kerja, yang nantinya dapat digunakan oleh manajer dalam proses evaluasi kinerja.
 
 Pada halaman ini, karyawan diminta untuk mengisi tiga komponen utama, yaitu Tanggal, Jam Masuk, dan Jam Pulang. Kolom Tanggal digunakan untuk mencatat hari kerja dan sistem akan mengisi secara otomatis, sedangkan kolom Jam Masuk dan Jam Pulang berfungsi untuk mencatat waktu mulai dan selesai bekerja. Setelah seluruh data terisi, karyawan dapat menekan tombol Simpan untuk menyimpan data aktivitas ke sistem.
 
-<img width="1277" height="743" alt="image" src="https://github.com/user-attachments/assets/6a70cf67-13fa-40b3-bf0e-54d09bcfbed9" />
+<img width="1278" height="709" alt="image" src="https://github.com/user-attachments/assets/6e7ade48-9c32-497d-8093-c2e48b19aca5" />
+
 
 
 Disini saya akan mengisi aktivitas kerja, saya menginputkan jam masuk dan jam pulang. Setelah itu klik tombol Simpan, dan akan muncul notifikasi yang menandakan bahwa aktivitas kerja kita telah berhasil disimpan.
 
-<img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/4a673677-5be4-4c50-8e93-a35f1ddda496" />
+<img width="1273" height="716" alt="image" src="https://github.com/user-attachments/assets/a0280f78-4791-4833-ad69-1fe932275860" />
 
-**3. Sampaikan Feedback**
+
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
+
+#### **3. Sampaikan Feedback**
 
 Halaman ini merupakan menu pengisian Feedback yang digunakan oleh karyawan untuk menyampaikan pendapat, saran, atau tanggapan terkait lingkungan kerja maupun sistem yang digunakan. Fitur ini menjadi wadah komunikasi dua arah antara karyawan dan manajemen guna meningkatkan kualitas kerja dan kenyamanan dalam perusahaan.
 
@@ -728,22 +734,36 @@ Jika inputan di kolom feedback kosong, maka sistem akan memberi peringatan bahwa
 
 > <img width="1282" height="791" alt="image" src="https://github.com/user-attachments/assets/b8846b09-1790-4405-82fe-618ef68e38c7" />
 
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
 
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
 
-**4. Isi Survei Kesejahteraan**
+#### **4. Isi Survei Kesejahteraan**
 
 Halaman ini merupakan menu pengisian Survei Kesejahteraan Karyawan yang berfungsi untuk mengukur tingkat stres dan kepuasan kerja karyawan sebagai bagian dari pemantauan kesejahteraan di lingkungan perusahaan. Fitur ini membantu manajemen dalam menilai kondisi psikologis serta tingkat kenyamanan karyawan di tempat kerja secara berkala.
 
 Pada halaman ini, karyawan diminta untuk mengisi Tanggal, Tingkat Stres, dan Kepuasan Kerja. Kolom Tanggal digunakan untuk mencatat waktu pengisian survei dan sistem akan mengisi secara otomatis, sedangkan Tingkat Stres dan Kepuasan Kerja diisi dengan skor bernilai 1–5, di mana angka 1 menunjukkan tingkat terendah dan angka 5 menunjukkan tingkat tertinggi. Penilaian ini memberikan gambaran kuantitatif mengenai kondisi emosional dan kepuasan karyawan terhadap pekerjaannya. Setelah seluruh data diisi, karyawan dapat menekan tombol Simpan untuk mengirim hasil survei ke sistem. 
 
-<img width="1278" height="743" alt="image" src="https://github.com/user-attachments/assets/72a58475-80c0-4f0f-9162-8f624a573f01" />
+<img width="1274" height="738" alt="image" src="https://github.com/user-attachments/assets/8eb93c66-52fc-4491-bd8c-abf5f61a0a11" />
 
-Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, akan muncul notifikasi bahwa survei yang dilakukan tadi telah tersimpan.
+
+Setelah mengisi survei kesejahteraan, klik tombol simpan. Maka, sistem menampilkan pesan konfirmasi bahwa survei sudah tersimpan.
 
 <img width="1281" height="742" alt="image" src="https://github.com/user-attachments/assets/e2d73f94-3adc-4c44-9a32-240bde7f713b" />
 
+**Pembatasan Pengisian**
 
-**5. Profil**
+Bila karyawan mencoba mengisi lebih dari sekali pada tanggal yang sama, sistem memberi peringatan bahwa survei hari ini sudah diisi.
+
+<img width="1276" height="740" alt="image" src="https://github.com/user-attachments/assets/f34049f6-ff90-432c-82d8-6c5b28ae52b6" />
+
+
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
+
+
+#### **5. Profil**
 
 Tombol profil terdapat di sebelah kanan ujung layar (sebelah tombol logout). Halaman ini merupakan menu Profil Karyawan yang berfungsi untuk menampilkan serta memperbarui data pribadi karyawan dalam sistem. Fitur ini memungkinkan karyawan untuk melihat informasi dasar seperti Nama, Status kerja, Departement, Gaji, Username, dan Password.
 
@@ -757,3 +777,7 @@ Disini saya login dengan akun karyawan milik Lukman Hakim. Setelah masuk ke menu
 Selanjutnya, saya ingin memperbarui data dengan mengubah username menjadi hakim dan klik tombol update yang ada dibawah. Maka akan muncul notifikasi bahwa profil berhasil diperbarui.
 
 <img width="1278" height="788" alt="image" src="https://github.com/user-attachments/assets/ee13a0b4-032c-4021-87f7-4391645a30cb" />
+
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+
+> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4e24436a-fb2c-418e-8416-cdd7fe89b193" />
