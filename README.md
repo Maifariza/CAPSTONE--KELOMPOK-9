@@ -287,7 +287,7 @@ Di EMPORIA, Packages yang digunakan adalah:
 
 ### com.mycompany.capstone.service
 
-> <img width="253" height="130" alt="image" src="https://github.com/user-attachments/assets/4d29ffbb-f647-4bec-85db-a6281745a6b3" />
+> <img width="237" height="149" alt="image" src="https://github.com/user-attachments/assets/1098853a-d254-4359-848a-5eb7027196c3" />
 >
 > Berisi kelas service yang menjadi penghubung antara GUI dan DAO. Setiap kelas di sini bertugas menangani logika bisnis dan validasi data sebelum dikirim ke database. Contohnya, LoginService menangani proses login, KaryawanService mengatur data karyawan, dan LaporanKinerjaService mengelola laporan evaluasi.
 
