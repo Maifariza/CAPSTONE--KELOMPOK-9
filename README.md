@@ -352,7 +352,7 @@ Berikut adalah tautan yang menyajikan flowchart dan use case diagram sebagai pen
 
 Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam program Emporia dijalankan, halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses Login.
 
-<img width="856" height="506" alt="image" src="https://github.com/user-attachments/assets/9a5c5c68-ab5f-44e6-a57f-f5a462ff0bf8" />
+<img width="744" height="511" alt="image" src="https://github.com/user-attachments/assets/077c7832-ad96-4561-aa12-0be87744130e" />
 
 
 Terdapat 2 tombol pilihan utamanya, yaitu:
@@ -370,8 +370,7 @@ Terdapat 2 tombol pilihan utamanya, yaitu:
 
 Setelah pilih menu Login di menu utama tadi, pengguna akan diarahkan ke menu ini. Pada menu ini, pengguna diminta untuk memasukkan Username dan Password mereka, lalu menekan tombol Login. Setelah itu, sistem akan memeriksa kecocokan data ke database. 
 
-<img width="746" height="508" alt="image" src="https://github.com/user-attachments/assets/b69a754b-73c0-477d-84bd-e8df1d1f0647" />
-
+<img width="1358" height="739" alt="image" src="https://github.com/user-attachments/assets/525f7e50-1772-4fef-86d9-c3aa7436ffaf" />
 
 
 
