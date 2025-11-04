@@ -465,12 +465,6 @@ Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemen
 
 
 
-Jika manajer membuat laporan kinerja yang lain berada di departemen dia, maka akan muncul notifikasi seperti pada gambar dibawah.
-
-> <img width="1277" height="742" alt="image" src="https://github.com/user-attachments/assets/e9084929-93e3-478a-9487-f8557da42000" />
-
-
-
 
 **Update**
 
