@@ -243,7 +243,7 @@ berbeda.
 
 ---
 
-<h3 align="center">Struktur Package Program</h3>
+# <h3 align="center">Struktur Package Program</h3>
 
 Package merupakan mekanisme pengelompokan class, interface, atau sub-package berdasarkan jenis/fungsi-nya. Sistem package hampir sama seperti folder, namun package juga berfungsi sebagai namespace yang digunakan untuk memisahkan dan mengidentifikasi komponen menjadi bagian tertentu.
 
