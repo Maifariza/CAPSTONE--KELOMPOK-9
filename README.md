@@ -482,10 +482,20 @@ Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara t
 
 **2. Aktivitas Kerja**
 
-   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat menambah aktivitas baru dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
+   Menu ini menampilkan catatan aktivitas kerja harian karyawan seperti jam masuk dan jam pulang. Selain itu, terdapat pilihan bahwa Manajer dapat mencari data aktivitas kerja karyawan, menambah aktivitas baru, menghapus, dan memperbarui data yang sudah ada jika terjadi perubahan, misalnya kesalahan pencatatan jam kerja. 
 
    <img width="1275" height="744" alt="image" src="https://github.com/user-attachments/assets/edfe7a14-3eec-4058-a7d6-c3344c95592c" />
 
+   **Search**
+
+   Karyawan juga mempunyai fitur pencarian di aktivitas kerja ini. Contohnya manajer ingin mencari karyawan yang bernama vito. Lalu, masukkan usernamenya di kolom pencarian dan klik search. Maka, tampilan pada tabel, sudah terdapat data aktivitas kerja milik vito. 
+
+   <img width="1276" height="748" alt="image" src="https://github.com/user-attachments/assets/8ee61a09-b619-468c-951f-97fc6a361d36" />
+
+
+   Jika mencari username yang tidak tersimpan dalam database, maka sistem akan menampilkan notifikasi bahwa tidak ada pencarian dengan username tersebut.
+
+   > <img width="1273" height="740" alt="image" src="https://github.com/user-attachments/assets/9018ddce-26b9-4f7c-ad1e-37a686bc7d40" />
 
 
    **Create**
@@ -528,9 +538,8 @@ Kita juga bisa memperbarui data profil kita. Disini, manajer yang bernama Citra 
 
 <img width="1278" height="789" alt="image" src="https://github.com/user-attachments/assets/d5a081a9-081f-4b6f-bd5c-dc2409f266c3" />
 
-Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
+Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. 
 
-> <img width="260" height="117" alt="image" src="https://github.com/user-attachments/assets/4a19e2ab-4eb2-49f0-8448-26db5534d858" />
 
 **4. Data User**
 
@@ -543,34 +552,51 @@ Di dalam menu ini terdapat beberapa fitur, yaitu Manajer dapat mencari data peng
 
 **Search Data User**
 
-Disini saya ingin mencari karyawan dengan username wahyu. Saya mengetikkan nama di kolom pencarian lalu klik tombol search. Kemudian tabel akan menampilkan data dari wahyu.
+Fitur ini dipakai untuk mencari data karyawan berdasarkan username. Ketikkan username pada kolom pencarian, lalu klik Search. Sistem akan menampilkan hasil pada tabel di bawahnya. 
 
 <img width="1001" height="633" alt="image" src="https://github.com/user-attachments/assets/bf19553c-97d9-4513-b800-233dd818a4ed" />
+
+Jika data tidak ditemukan, akan muncul pemberitahuan bahwa karyawan dengan username tersebut belum ada.
+
+<img width="1008" height="632" alt="image" src="https://github.com/user-attachments/assets/a43754cf-b351-41f5-85c7-af879286c5fd" />
+
 
  
 **Create Data User**
 
+Fitur ini digunakan oleh manajer untuk menambahkan akun karyawan baru ke dalam sistem. Isi terlebih dahulu kolom nama, departemen, gaji, status, role, username, dan password, lalu tekan tombol Create.
+
+![WhatsApp Image 2025-11-04 at 13 06 27_d650c595](https://github.com/user-attachments/assets/ca8373b2-3d1b-4585-828f-904c65625d79) 
+
+Sistem akan memvalidasi data yang dimasukkan, menyimpannya ke dalam database, dan menampilkan notifikasi bahwa akun karyawan berhasil dibuat.
+
+![WhatsApp Image 2025-11-04 at 13 06 28_dfc60e0f](https://github.com/user-attachments/assets/a658e0ca-152e-4594-8e7c-76d9ef614c40)
+
+Setelah proses berhasil, pengguna dapat memeriksa kembali pada tabel data karyawan untuk memastikan bahwa akun baru telah ditambahkan.
+
+![WhatsApp Image 2025-11-04 at 13 06 28_48f56ef5](https://github.com/user-attachments/assets/c4f2d916-5f0e-4397-a4b6-7058fb2f11b4)
+
+
+
   
 **Update Data User**
 
-  Fitur ini digunakan untuk memperbarui informasi pengguna yang sudah ada, khususnya data karyawan. Manajer dapat mengubah detail seperti nama, departemen, status kerja, jabatan, atau gaji. Namun, pembaruan ini tidak termasuk data profil pribadi yang hanya bisa diubah oleh pengguna itu sendiri melalui menu profil. 
-  
-  Klik terlebih dahulu pengguna yang ingin diperbarui, lalu masukkan data yang ingin diubah, dan klik tombol Update. Setelah itu sistem tidak akan langsung menyimpan data, namun akan diberi konfirmasi lagi agar tidak ada kesalahan salah input.
+  Fitur ini berfungsi untuk memperbarui informasi karyawan yang sudah ada. Manajer dapat mengubah data seperti nama, departemen, status kerja, jabatan, atau gaji. Untuk melakukan perubahan, pilih pengguna yang ingin diperbarui, isi data baru pada kolom yang tersedia, lalu klik Update. Setelah itu, sistem akan menampilkan konfirmasi agar pengguna dapat memeriksa kembali sebelum menyimpan perubahan. 
 
 > <img width="1007" height="629" alt="Screenshot 2025-11-04 103209" src="https://github.com/user-attachments/assets/4e644915-7ddb-4244-8069-8d0c573704ce" />
 
-Klik no bila ingin melakukan pembatalan proses penghapusan. Dan jika ingin melanjutkan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
+Klik no bila ingin melakukan pembatalan proses penghapusan. Dan jika ingin melanjutkan penghapusan, klik yes dan tampilan akan muncul notifikasi bahwa data telah berhasil diupdate.
 
 > <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/16388740-ca17-42d9-a73b-4041ccc8868c" />
 
 
 **Delete Data User**
 
-Disini saya ingin menghapus data user milik Putra Aditya. Saya klik terlebih dahulu data milik putra, lalu tekan tombol Delete. Maka sistem akan menampilkan konfirmasi kembali seperti pada gambar di bawah ini.
+Fitur ini digunakan untuk menghapus data pengguna dari sistem. Pilih terlebih dahulu karyawan yang ingin dihapus, dan disini saya ingin menghapus data user milik Putra Aditya, lalu klik tombol Delete. Sistem akan menampilkan dialog konfirmasi untuk memastikan tindakan penghapusan. 
 
 <img width="1000" height="632" alt="image" src="https://github.com/user-attachments/assets/8495fbb1-5d4e-47b6-ab49-879bab8af2f1" />
 
-Jika memilih no, maka proses penghapusan akan dibatalkan dan kembali ke tampilan awal. Dan jika pilih yes, maka akan muncul pemberitahuan bahwa user tersebut berhasil dihapus.
+Jika pengguna memilih Yes, maka data akan dihapus dan sistem akan menampilkan notifikasi bahwa data telah berhasil dihapus. Jika memilih No, proses penghapusan dibatalkan dan tampilan kembali ke halaman sebelumnya.
 
 <img width="1003" height="637" alt="image" src="https://github.com/user-attachments/assets/f26b871a-24fa-4929-8437-514d083db0ec" />
 
