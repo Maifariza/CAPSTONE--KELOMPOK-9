@@ -687,7 +687,8 @@ Halaman ini merupakan menu Laporan Kinerja yang digunakan oleh karyawan untuk me
 
 Tabel utama pada halaman ini menampilkan beberapa informasi penting, yaitu Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. Data tersebut berfungsi sebagai umpan balik yang membantu karyawan memahami sejauh mana kinerjanya selama periode tertentu.
 
-<img width="1270" height="743" alt="image" src="https://github.com/user-attachments/assets/fbb8f4c3-5445-49e0-9774-79bf75d441e4" />
+<img width="1278" height="744" alt="image" src="https://github.com/user-attachments/assets/a0f180f9-e566-4d56-b48d-94a54f1a175d" />
+
 
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Karyawan. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
