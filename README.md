@@ -223,7 +223,24 @@ berbeda.
 6. Interface
 
    > Interface adalah sebuah kontrak atau kerangka kerja dalam OOP yang hanya berisi deklarasi method (tanpa implementasi). Setiap class yang mengimplementasikan interface wajib mendefinisikan semua method yang ada di dalamnya. Berbeda dengan abstract class, interface tidak memiliki implementasi method, dan sebuah class dapat mengimplementasikan lebih dari satu interface sekaligus.
-     
+   
+   > Penerapannya terdapat di kelas LaporanKinerjaInterface dan LaporanKinerjaServiceImpl. Interface ini mendefinisikan satu metode utama getLaporanByKaryawan(int idKaryawan) yang digunakan untuk mengambil data laporan berdasarkan ID karyawan. Kelas LaporanKinerjaServiceImpl mengimplementasikan interface tersebut dan memanfaatkan DAO untuk mengambil data dari database.
+
+   **LaporanKinerjaInterface**
+
+   > <img width="203" height="27" alt="image" src="https://github.com/user-attachments/assets/9fb0b050-b494-49b1-b115-b734a1b715a6" />
+
+   > <img width="508" height="140" alt="image" src="https://github.com/user-attachments/assets/f68e9256-18f9-44d9-aae7-11b41b9c211c" />
+
+
+   
+   **LaporanKinerjaServiceImpl**
+   
+   > <img width="212" height="28" alt="image" src="https://github.com/user-attachments/assets/499c4d3b-85c3-4c12-9ed7-f24bac5632ec" />
+
+
+   > <img width="629" height="266" alt="image" src="https://github.com/user-attachments/assets/7e4e09f2-39bf-4814-834d-b5d46025b350" />
+
 ---
 
 <h3 align="center">Struktur Package Program</h3>
