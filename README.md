@@ -442,7 +442,8 @@ Di bagian atas terdapat tombol berwarna merah “Log Out” yang berfungsi untuk
    
    Di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Di bawah form, terdapat tabel laporan yang menampilkan data kinerja seluruh karyawan berdasarkan input yang telah dimasukkan, dengan kolom Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. 
 
-<img width="1255" height="701" alt="image" src="https://github.com/user-attachments/assets/274b9594-2842-4c6b-a8f3-e87b281d1245" />
+<img width="1228" height="688" alt="image" src="https://github.com/user-attachments/assets/fa599832-6855-47e4-84a7-0b1714c55563" />
+
 
 
 
@@ -451,7 +452,8 @@ Di bagian atas terdapat tombol berwarna merah “Log Out” yang berfungsi untuk
 
 Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan username salah satu karyawan yaitu nadia. Maka, tabel akan menampilkan ID, Nama, Rata-rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi milik nadia.
 
-<img width="1263" height="703" alt="image" src="https://github.com/user-attachments/assets/add4b8a7-3066-4386-a6b8-883941357fa2" />
+<img width="1241" height="705" alt="image" src="https://github.com/user-attachments/assets/ebfeb46d-1690-447a-a88d-98ebd0ce517a" />
+
 
 
 
@@ -460,7 +462,8 @@ Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan userna
 
 Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemennya sama dengan dia. Pilih terlebih dahulu karyawan yang ingin di buat laporannya. Lalu isi input data barunya seperti nama, rata rata jam kerja, total lembur kerja, skor survei, evaluasi dan rekomendasi, kemudian klik tombool create. Tampilan akan muncul notifikasi bahwa data telah berhasil ditambahkan
 
-<img width="1263" height="702" alt="image" src="https://github.com/user-attachments/assets/df4f9de0-17bd-4996-bae5-56c398600626" />
+<img width="1236" height="688" alt="image" src="https://github.com/user-attachments/assets/bd6aa461-c731-4662-8c07-b71ea50daa9b" />
+
 
 
 
@@ -468,23 +471,26 @@ Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemen
 
 **Update**
 
-Disini saya ingin memperbarui laporan milik Siti Nurhaliza di kolom evaluasi yang berisi "Kerja yang kurang cepat". Setelah selesai mengisi evaluasi, klik tombol Update yang ada di bawah lalu akan muncul notifikasi bahwa laporan sudah berhasil diperbarui.
+Disini saya ingin memperbarui laporan milik Rahmat. Setelah selesai mengisi evaluasi, klik tombol Update yang ada di bawah lalu akan muncul notifikasi bahwa laporan sudah berhasil diperbarui.
 
-<img width="1272" height="742" alt="image" src="https://github.com/user-attachments/assets/87beeb50-ca0b-4efe-9414-eeb64dacdabf" />
+<img width="1234" height="706" alt="image" src="https://github.com/user-attachments/assets/7493c3bf-fc51-4f23-b601-8ac20b5eccb1" />
+
 
 
 **Delete**
 
 
-Kemudian disini saya akan menghapus Laporan milik Andi Pratama. Klik dulu kolom tabel milik Andi, lalu klik tombol delete. Maka akan muncul notifikasi bahwa data telah berhasil dihapus.
+Kemudian disini saya akan menghapus Laporan milik Rahmat Hidayat. Klik dulu kolom tabel milik Rahmat, lalu klik tombol delete. Maka akan muncul notifikasi bahwa data telah berhasil dihapus.
 
-<img width="1275" height="745" alt="image" src="https://github.com/user-attachments/assets/1a9436a2-3fb6-4a68-9d50-f0410bb5f8a7" />
+<<img width="1222" height="703" alt="image" src="https://github.com/user-attachments/assets/5688688d-fa3d-4229-8660-6627395b9742" />
+
 
 **Refresh**
 
 Setelah melakukan Create, Update, dan Delete, klik tombol Refresh untuk mengosongkan semua kolom inputannya dan memperbarui semua datanya.
 
-<img width="1273" height="744" alt="image" src="https://github.com/user-attachments/assets/411f80ef-41a0-461c-b724-efe4b212c428" />
+<img width="1223" height="696" alt="image" src="https://github.com/user-attachments/assets/125d31d1-e39b-4e65-bb5f-539c76ae2a29" />
+
 
 
 Tombol Kembali di kanan bawah digunakan untuk kembali ke menu utama, sementara tombol Log Out di kanan atas berfungsi untuk keluar dari sistem. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
