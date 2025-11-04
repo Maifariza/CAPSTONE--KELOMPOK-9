@@ -635,12 +635,14 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 
 Halaman ini digunakan manajer untuk meninjau hasil survei kesejahteraan karyawan. Di bagian atas tersedia kolom “Cari Username” dan tanggal (dd/mm/yy) yang digunakan manajer untuk mencari atau memfilter data berdasarkan akun karyawan dan juga berdasarkan periode pengisian. Ringkasan data akan ditampilkan dalam tabel yang memuat Nama Karyawan, Tanggal, Tingkat Stres, dan Kepuasan Kerja, sehingga manajer dapat melihat kondisi psikologis serta kepuasan kerja karyawan secara terstruktur. 
 
-<img width="1291" height="743" alt="image" src="https://github.com/user-attachments/assets/d44db579-0e12-4e0f-866c-080c1a694cc7" />
+<img width="1292" height="742" alt="image" src="https://github.com/user-attachments/assets/a310f960-c917-4d19-a00e-6718c977babe" />
+
 
 
 Selain itu terdapat fitur search untuk mencari survei kesejahteraan milik karyawan. Disini, manajer mencoba mencari user bernama Vito saputra, kemudian memasukkan tanggal agar lebih spesifik kemudian klik tombol search yang ada di sebelah inputan tanggal. Dan terlihat outputnya terdapat di dalam tabel, sudah ada survei kesejahteraan milik Vito Saputra.
 
-<img width="1294" height="743" alt="image" src="https://github.com/user-attachments/assets/c2dc020c-8dd8-4ce6-8453-ea3a88dec408" />
+<img width="1295" height="745" alt="image" src="https://github.com/user-attachments/assets/18bf3358-7049-4fbe-bbfd-a019717f7092" />
+
 
 
 
@@ -653,8 +655,7 @@ Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan
 
 Halaman ini digunakan untuk menampilkan masukan atau tanggapan dari karyawan yang dikirim melalui sistem. Tabel utama pada halaman ini berisi dua kolom, yaitu Tanggal dan Feedback, yang memudahkan manajer dalam meninjau setiap feedback berdasarkan waktu pengirimannya. Tampilan sederhana ini membantu proses evaluasi dan pemantauan kepuasan kerja karyawan secara terfokus. 
 
-<img width="1282" height="745" alt="image" src="https://github.com/user-attachments/assets/073e51e9-4b0e-4481-970b-ecafe78b0ff1" />
-
+<img width="1275" height="741" alt="image" src="https://github.com/user-attachments/assets/64ffab40-2b6a-4f7b-8e9a-7ca83c82e1c4" />
 
 
 Setelah selesai meninjau, klik tombol Kembali untuk kembali ke Menu Manajer. Dan jika ingin keluar program, pengguna dapat klik tombol Log out yang ada di kanan atas. Ketika tombol Log Out ditekan, akan muncul notifikasi konfirmasi “Apakah yakin anda ingin Logout?”. Jika pengguna memilih Tidak, maka proses logout dibatalkan dan halaman tetap terbuka. Ini dibuat agar pengguna tidak keluar secara tidak sengaja.
