@@ -442,15 +442,16 @@ Di bagian atas terdapat tombol berwarna merah “Log Out” yang berfungsi untuk
    
    Di bawahnya terdapat tombol Create untuk menambahkan catatan baru, Update untuk memperbarui data terpilih, dan Delete untuk menghapusnya. Di bawah form, terdapat tabel laporan yang menampilkan data kinerja seluruh karyawan berdasarkan input yang telah dimasukkan, dengan kolom Nama, Rata-Rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi. 
 
-<img width="1278" height="747" alt="image" src="https://github.com/user-attachments/assets/5afea212-aa43-4205-8b35-c8c31774f2eb" />
+<img width="1255" height="701" alt="image" src="https://github.com/user-attachments/assets/274b9594-2842-4c6b-a8f3-e87b281d1245" />
+
 
 
 
 **Search**
 
-Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan username salah satu karyawan yaitu wahyu. Maka, tabel akan menampilkan ID, Nama, Rata-rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi milik wahyu.
+Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan username salah satu karyawan yaitu nadia. Maka, tabel akan menampilkan ID, Nama, Rata-rata Jam Kerja, Total Lembur, Skor Survei, Evaluasi, dan Rekomendasi milik nadia.
 
-<img width="1275" height="746" alt="image" src="https://github.com/user-attachments/assets/c5528039-ef5e-4840-853a-aad28b034f7e" />
+<img width="1263" height="703" alt="image" src="https://github.com/user-attachments/assets/add4b8a7-3066-4386-a6b8-883941357fa2" />
 
 
 
@@ -459,7 +460,8 @@ Disini, saya akan mencari laporan kinerja milik Karyawan. Saya memasukkan userna
 
 Disini manajer hanya bisa membuat laporan kinerja untuk karyawan yang departemennya sama dengan dia. Pilih terlebih dahulu karyawan yang ingin di buat laporannya. Lalu isi input data barunya seperti nama, rata rata jam kerja, total lembur kerja, skor survei, evaluasi dan rekomendasi, kemudian klik tombool create. Tampilan akan muncul notifikasi bahwa data telah berhasil ditambahkan
 
-<img width="1273" height="743" alt="image" src="https://github.com/user-attachments/assets/2bb94cbd-3942-4840-bf65-00626915b88e" />
+<img width="1263" height="702" alt="image" src="https://github.com/user-attachments/assets/df4f9de0-17bd-4996-bae5-56c398600626" />
+
 
 
 
